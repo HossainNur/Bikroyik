@@ -1,0 +1,2458 @@
+[
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_30.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\add_30.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_history.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right_20.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_arrow_right_20.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_choco.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\choco.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_user_dialog.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\user_dialog.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash2.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_block.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\spinner_block.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_call2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\phone_call2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mango_pickle.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\mango_pickle.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bill.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_bill.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_route_list_group.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sync.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\sync.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sync.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sync.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_submitted_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\submitted_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drop_down.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\drop_down.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_permision_guideline_popup_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\permision_guideline_popup_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_sells_fragment_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sells_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_chili.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\chili.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_format_list_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_format_list_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_three_dot_white_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_three_dot_white_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_employee_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_report_card_small.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\report_card_small.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_item_edit.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_item_edit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_round_semitransperant.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\btn_round_semitransperant.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_tax_discount_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_tax_discount_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_esopgul.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\esopgul.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_list_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contact_list_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_in_contact_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\button_in_contact_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_report_card_medium.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\report_card_medium.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_history_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_history_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_p.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\logo_p.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_notice_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\next_notice_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_attendance_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendance_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_done_for_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\done_for_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_product_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_photo_camera_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_photo_camera_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_bakir_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_drawer_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\nav_drawer_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_messaging.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\messaging.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_edit_homepage.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_edit_homepage.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\splash_2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_launch_screen.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\launch_screen.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_animation_bakir_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\anim\\right_animation_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_chicken.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\chicken.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_kheer.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\kheer.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_seller_list_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\seller_list_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_task_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_task_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_log.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_log.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_bill.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_bill.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clip_black_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\clip_black_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\settings.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_attendance_summery.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendance_summery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_phone_book.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_phone_book.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings_icon.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\settings_icon.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calculate_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_calculate_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_down_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_arrow_down_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_feedback.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-sw600dp\\activity_feedback.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_message_list_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_products.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login_new.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_phone_list_child_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\phone_list_child_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_expense_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_expense_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_options_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_right_arrow_2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow_2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_schedule_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_schedule_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_supported_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\supported_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_list_item_fragment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_item_fragment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_message.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\message.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_tomato_sauce.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\tomato_sauce.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_dashboard.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_dashboard.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_order_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\add_order_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_order_history.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_double_arrow_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_double_arrow_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_contact.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile_icon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\profile_icon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_product_list_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\product_list_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_summary.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_summary.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_leave_sample.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\leave_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_spinner_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_make_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_make_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\home_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-w1240dp_activity_pos_login.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-w1240dp\\activity_pos_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_add_a_photo_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\ic_baseline_add_a_photo_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_permission_guideline.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\permission_guideline.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_summery_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_summery_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_photo_option_menu.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\photo_option_menu.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\phone2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_details_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_jal_muri.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\jal_muri.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_img.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\img.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_attendance.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\dialog_attendance.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock_outline.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\lock_outline.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_quick_calculator.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_quick_calculator.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_rent.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\rent.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_kalijira.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\kalijira.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_task_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\task_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_buy.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\buy.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove_circle_20.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\remove_circle_20.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo_drawer_top.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\logo_drawer_top.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_bullet.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\list_bullet.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_alarm_clock_icon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\alarm_clock_icon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_sync_all.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\menu_sync_all.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_large_landscape.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_large_landscape.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_file_notification_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\file_notification_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_settings.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_party_meeting.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\party_meeting.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\anim_left_animation_bakir_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\anim\\left_animation_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_brand_directory.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_brand_directory.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_complain_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_muri.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\muri.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_expenses.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\expenses.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cross.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\cross.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_credit_card_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_credit_card_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_due.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_due.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jpg_black.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\jpg_black.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_feature_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\feature_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_change_language.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_change_language.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circuler_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\circuler_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cancel_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\cancel_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_left_arrow.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\left_arrow.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_new_contact.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_new_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_orange_candy.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\orange_candy.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock_1.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\lock_1.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_baseball_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\baseball_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bbq.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\bbq.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_back.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\back.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_party_meeting_medium.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\party_meeting_medium.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notice.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_due_collection.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_due_collection.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_pineapple_jam.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\pineapple_jam.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_close_white_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\close_white_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_attendance_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendance_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_confirm_visit_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\confirm_visit_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_final_orders_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_final_orders_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pos_login.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pos_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_profile.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\profile.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_profile_info.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_profile_info.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sells_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sells_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-xlarge\\activity_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_attach_money_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_baseline_attach_money_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_route_list_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_tamarind_sauce.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\tamarind_sauce.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_garlic_pickle.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\garlic_pickle.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_solid_rectangle.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\solid_rectangle.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_message_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_default_image.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\default_image.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inovex_logo.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\inovex_logo.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_file_upload_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_file_upload_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_call_scheduling.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\call_scheduling.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_button_backgroud.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\button_backgroud.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_product_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_product_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_contacts_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contacts_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_route.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_route.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_target_list_group.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_message_icon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\message_icon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_custom_popup_layout.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\custom_popup_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_final_order_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_lichi.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\lichi.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_call.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\call.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_arrow.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\back_arrow.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_options_sr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_sr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_profile_new_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\profile_new_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mixed_pickle.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\mixed_pickle.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termeric.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\termeric.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_delivery_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_delivery_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_attendence.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\attendence.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_deposit.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_deposit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dry_cake.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\dry_cake.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_party_meeting_small.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\party_meeting_small.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_message_delivery_man.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_message_delivery_man.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_todo.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\todo.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product3.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product3.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_notifications.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_serachitem.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\serachitem.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_party_meeting.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_party_meeting.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_grid_product_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_grid_product_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_info_256.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\info_256.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mp3_black.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\mp3_black.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_final_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_final_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bikroid_app_logo_splash.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\bikroid_app_logo_splash.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_message2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\message2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_mr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_animated_check.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\animated_check.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_edit_page_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\edit_page_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_grid_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_grid_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_nav_drawer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_nav_drawer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_purchase.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_purchase.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_contacts_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_contacts_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_screen_navigation.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_screen_navigation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_attendence_comment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendence_comment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_total_charge_calculation.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_total_charge_calculation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_office.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\back_office.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visibility_off_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_visibility_off_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_list_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bikroid_app_logo_splash.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bikroid_app_logo_splash.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_cross_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\cross_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_white_backspace_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_white_backspace_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash_merchant.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash_merchant.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_for_edit_sales_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_for_edit_sales_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_close_black_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_close_black_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_edit_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\edit_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\splash.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_detail_expense_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\detail_expense_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_orange_jely.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\orange_jely.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_product.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\product.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_qr_code_scanner_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_qr_code_scanner_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_add_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_info.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\info.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_toast.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\toast.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_background_permission_one.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_background_permission_one.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_route_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_signup.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_signup.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_contact.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_complain.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\complain.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_activity_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-sw600dp\\activity_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_drop_down_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_arrow_drop_down_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mp3_color.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\mp3_color.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\anim_fade_transition.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\anim\\fade_transition.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_target_list_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_retailer_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\select_retailer_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_view_list_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_view_list_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_paid_fragment_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\paid_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_messaging_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\new_messaging_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_report_card.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\report_card.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_permission_one.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\background_permission_one.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_refresh_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\refresh_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_top_corners_round_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\top_corners_round_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_white_arrow_right_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_white_arrow_right_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_clip_black_32.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\clip_black_32.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_bikroyik.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\splash_bikroyik.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_inovex_logo.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\inovex_logo.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_splash_new_bikroyik.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\splash_new_bikroyik.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_product_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_product_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_splash.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_contact_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_contact_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_card_sales_order.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\card_sales_order.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product2.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_order_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_select_all_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\select_all_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_cash_collection_popup_activity.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\cash_collection_popup_activity.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_black_search_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_black_search_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_others.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\others.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notification.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_complain.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_visibility_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_visibility_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_delivery.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_delivery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_others.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_others.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_layout.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bakir_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\bakir_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_onlinestore.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\onlinestore.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_20.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_add_20.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_done_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\done_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_selling_product_layout.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\selling_product_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_grid_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_grid_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_product_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_order_pending.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_order_pending.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_employee_list_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\employee_list_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\account.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bikroid_app_logo_splash.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\bikroid_app_logo_splash.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account_outline.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\account_outline.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_search_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_submitted_retailers.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\submitted_retailers.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_contacts.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_horizontal_dashed_line.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\horizontal_dashed_line.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_expense.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_buy.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_buy.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_jpg_color.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\jpg_color.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_haleem.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\haleem.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_ranking_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\ranking_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_leave.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_leave.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custon_button.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\custon_button.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_change_language.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_change_language.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_kpi.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_kpi.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_product_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_schedule_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\schedule_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_salary.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\salary.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_due_fragment_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\due_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_close_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\close_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_expense.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_sales_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_new_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_meeting.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_meeting.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_ordered_item_child_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\ordered_item_child_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_stock_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_stock_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_corner.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\round_corner.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_back_black_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\back_black_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_xml_btn_yellow.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\selector_xml_btn_yellow.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_log_out_white.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\log_out_white.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_baseline_note_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\ic_baseline_note_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_done_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\done_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_round_primary.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\btn_round_primary.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_play_store_512.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\play_store_512.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dash_board.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_dash_board.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_contact_point_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contact_point_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_notice.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\next_notice.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_final_order_details_sample.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_details_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\home_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_grid_green_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_grid_green_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_cart.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\cart.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_group_notice.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_group_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_circle_20.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\add_circle_20.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_card_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\item_card_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_delete_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\menu_delete_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_add_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_profile.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_profile.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sms.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\sms.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mp4_color.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\mp4_color.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_splash_screen_photo.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\splash_screen_photo.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selecteditem_dot.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\selecteditem_dot.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_back_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\back_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_rent.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_rent.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_attendance_summery.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendance_summery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car_wash_48.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\car_wash_48.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_sales_toolbar.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sales_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_right_alt_50.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_arrow_right_alt_50.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_product_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_drop_down_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\drop_down_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_notice.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_home_sr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_sr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_brand_gridview_layout.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\brand_gridview_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_car_wash_64.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\car_wash_64.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_target_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_pos.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_pos.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sells.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sells.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_spalsh_background.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\spalsh_background.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_list_green_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_list_green_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_complain_sample.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_contact_book.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\contact_book.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_permission_two.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\background_permission_two.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_list_bullet_60.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\list_bullet_60.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_quick_sale.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_quick_sale.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_orders_details_sample.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\orders_details_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_due_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_due_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_no_spicific_brand.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\no_spicific_brand.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_add_20.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\ic_add_20.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nonselecteditem_dot.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\nonselecteditem_dot.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_searchable_spinner.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\dialog_searchable_spinner.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_add_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\menu_add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_info_128.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\info_128.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_permission_guideline.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\popup_permission_guideline.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_password_change.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_password_change.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_notice.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\notice.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_establish_connection.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\establish_connection.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_add_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_money_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_baseline_money_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_chanachur.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\chanachur.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_file_details_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\file_details_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_inovex_logo.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\inovex_logo.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_coriandar.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\coriandar.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_background_color.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\background_color.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_pager_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\pager_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_arrow_up_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_arrow_up_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_all_sales_item_calculation.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_all_sales_item_calculation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_comment_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\comment_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main_bikroyik.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_main_bikroyik.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backspace_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\backspace_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_add_white_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_person_add_white_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cumin.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\cumin.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_new_order_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\new_order_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_recylclerview.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_recylclerview.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bikroyik_logo.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bikroyik_logo.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation_drawer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_leave.png.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\leave.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_stock.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_60.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\add_60.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_leave.xml.flat",
+        "source": "F:\\android\\paikar\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\leave.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_button.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\round_button.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_notice_32.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\next_notice_32.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mango_chatni.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\mango_chatni.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\delete_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_make_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_make_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_jugajug.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\jugajug.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_dashboard1.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_dashboard1.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sales_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_info_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\info_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_product_grid_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_product_grid_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_picture_pdf_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_picture_pdf_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_employee_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_target_product.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\target_product.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_splash_bikroyik_1024.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\splash_bikroyik_1024.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_homescreen_hr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_homescreen_hr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_checkin.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\checkin.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_printshop_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_printshop_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_right_arrow.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_call_scheduler.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_call_scheduler.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mp4_black.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\mp4_black.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_button_merchant.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\custom_button_merchant.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dasboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\dasboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_boroi_chatni.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\boroi_chatni.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_notification_24.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\notification_24.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_sells_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sells_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_alert_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\custom_alert_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calculate_green_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_calculate_green_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_shareicon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\shareicon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_rent.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_rent.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_splash_background.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\splash_background.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_leave_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\leave_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_bikroid_app_logo_splash.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\bikroid_app_logo_splash.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_network_state_receiver.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_network_state_receiver.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\add_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_hot_chanachur.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\hot_chanachur.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_pending.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_pending.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_app_logo_bikroik.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\app_logo_bikroik.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\notification_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_quick_sales.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_quick_sales.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_logo_2.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\logo_2.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_route.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_route.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bakir_khata.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_baki.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_baki.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_abc.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\abc.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_printer.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\printer.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_others.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_others.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_report.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\report.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_order_history.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_profile.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_sales_order.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_update_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_white_round_background.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\white_round_background.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_products_directory.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_products_directory.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_child_due_client.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_due_client.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_comment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\add_comment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_orders_icon.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\orders_icon.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_activity_make_payment.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-v26\\activity_make_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_remove_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\remove_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_product_search.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\menu\\menu_product_search.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_expense_list_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\expense_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_log_out.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\log_out.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_due_iteam.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\due_iteam.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sms_message.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\sms_message.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pos.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pos.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_c_mango.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\c_mango.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_each_order_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_each_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_account_1.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\account_1.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_options_mr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_bill.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\bill.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_row.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\my_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_my_selected_item.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\my_selected_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_stock.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_info_icon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\info_icon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_target.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_target.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_black.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\pdf_black.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bottom_black_shadow.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\bottom_black_shadow.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_fried_dal.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\fried_dal.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_photo.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\add_photo.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_text_bg.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\text_bg.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signin.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_list_group.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_squares_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\squares_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_route_card.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_route_card.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_message_image_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_image_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_product_list.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\product_list.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout-w936dp_activity_pos_login.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-w936dp\\activity_pos_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_homescreen_mr.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_homescreen_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_language.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\language.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_deliver.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\deliver.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_sync_icon.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\sync_icon.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_notice_dialog.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\notice_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_green_arrow_right_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_green_arrow_right_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\phone.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dashboard.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\dashboard.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_print.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_sample_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sample_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_add_order_128.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\add_order_128.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_arrow_forward_40.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_baseline_arrow_forward_40.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_messaging.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_messaging.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_background_large_landscape.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\spinner_background_large_landscape.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_sales_large_landscape.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_sales_large_landscape.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_password_change2.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_password_change2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_expense.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_employee_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_home_48.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\home_48.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_smsmarketing.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\smsmarketing.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_stock.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\stock.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_paid.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_paid.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_submitted_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_submitted_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_potato.jpg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\potato.jpg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_extra_income.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\extra_income.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\layout_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_final_order_sample_view.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_sample_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pdf_color.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\pdf_color.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_task_list.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_task_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_new_contact.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_new_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_deposit.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_deposit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_retailer.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_toolbar_stock.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone_call.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\phone_call.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\xml_file_path.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\xml\\file_path.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_target.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_target.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_search_white_32.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-v24\\ic_search_white_32.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_device_name.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\device_name.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_khorocher_khata.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\khorocher_khata.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_bikrirhisab.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxxhdpi\\bikrirhisab.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_screen_navigation.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_screen_navigation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_paper.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\paper.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_black_search_24.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\ic_black_search_24.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_product_details.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_color.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable\\drawer_color.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_pop_up_window_activitiy.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pop_up_window_activitiy.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_bechabikri.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xxhdpi\\bechabikri.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_notification_64.png.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-hdpi\\notification_64.png"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_attendence.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendence.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_inovex_logo.jpeg.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\drawable-xhdpi\\inovex_logo.jpeg"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_due2.xml.flat",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_due2.xml"
+    }
+]

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/expenseLinearLayout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expense type"
+            android:layout_alignParentLeft="true"
+            android:textSize="12sp"
+            android:id="@+id/tvExpenseType"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="expense date time"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:id="@+id/tvExpenseDateTime"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvExpenseType"
+            android:id="@+id/tvExpenseNote"
+            android:textSize="14sp"
+            android:layout_marginBottom="3dp"
+            android:text="Note : "
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvExpenseNote"
+            android:id="@+id/tvExpenseAmount"
+            android:textSize="14sp"
+            android:layout_marginBottom="3dp"
+            android:text="Expense Amount : "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Approved Amount"
+            android:id="@+id/tvExpenseAmountApproved"
+            android:textSize="14sp"
+            android:layout_below="@id/tvExpenseAmount"
+            android:layout_alignParentLeft="true"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status : sent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="14sp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tvExpenseStatus"
+            android:layout_below="@id/tvExpenseAmount"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/card_normal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/card1"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+            <com.inovex.bikroyik.adapter.ItemCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:id="@+id/cardOne"
+                card:card_image="@drawable/deliver"
+                card:card_name="Order delivery" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="#19000000" />
+
+        <RelativeLayout
+            android:id="@+id/card2"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+
+            <com.inovex.bikroyik.adapter.ItemCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                card:card_image="@drawable/checkin"
+                android:id="@+id/cardTwo"
+                card:card_name="Due Collection" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#19000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/card3"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+
+            <com.inovex.bikroyik.adapter.ItemCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                card:card_image="@drawable/report_card_medium"
+                card:card_name="Message"
+                android:id="@+id/cardThree"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="1.0px"
+            android:layout_height="fill_parent"
+            android:background="#19000000" />
+
+        <RelativeLayout
+            android:id="@+id/card4"
+            android:layout_width="0.0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.0">
+
+
+            <com.inovex.bikroyik.adapter.ItemCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                card:card_image="@drawable/notice"
+                android:id="@+id/cardFour"
+                card:card_name="Notice board" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#19000000" />
+
+</LinearLayout>

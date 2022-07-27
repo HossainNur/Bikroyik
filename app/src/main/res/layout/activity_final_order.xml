@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffffff"
+    android:id="@+id/root_print_view"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cons_header_parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+        <ImageView
+            android:id="@+id/iv_close_print"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="visible"
+            android:src="@drawable/close_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:paddingBottom="5dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/ll_tittle"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_close_print"
+            >
+
+            <TextView
+                android:id="@+id/tv_bikri_korechen"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="বিক্রি করেছেন "
+                android:textColor="@color/black"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/tv_totalPrice_InTittle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:text="0 টাকা"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_taka_muller"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" মূল্যের পণ্য"
+                android:textSize="17sp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/final_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        app:cardCornerRadius="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cons_header_parent"
+        app:layout_constraintBottom_toTopOf="@+id/card_footer"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/top_corners_round_background"
+                    android:padding="5dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="@string/store_name_bikroyik"
+                            android:textColor="@color/white"
+                            android:layout_marginRight="3dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/tv_store_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="N/A"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="@string/store_contact"
+                            android:layout_marginRight="3dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <TextView
+                            android:id="@+id/tv_storeContact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="N/A"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+
+                <TextView
+                    android:id="@+id/retail_owner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:text="Retailer Owner"
+                    android:textColor="#000000"
+                    android:visibility="gone"
+                    android:textStyle="bold"
+                    android:layout_gravity="center_horizontal"/>
+                <!--
+                        <TextView
+                            android:id="@+id/market_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="14sp"
+                            android:text="Market Name"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal"/>
+                -->
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="@string/user_name"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:id="@+id/tv_user_name"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="N/A"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="@string/user_contact"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:id="@+id/tv_userContact"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="N/A"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Order ID : "
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:id="@+id/order_id"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="or-1223456789"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginBottom="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="Date :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_marginStart="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:text="N/A"
+                        android:textColor="#000000"
+                        android:layout_gravity="center_horizontal"/>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="8">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="3"
+                        android:textSize="14sp"
+                        android:layout_height="match_parent"
+                        android:text="Name"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:textSize="12sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:text="Qty"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="Unit Price"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+                    <TextView
+                        android:textSize="14sp"
+                        android:layout_width="0dp"
+                        android:layout_weight="2"
+                        android:layout_height="match_parent"
+                        android:text="Total"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
+
+
+
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#000000"/>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/final_recycler"/>
+
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_dashed_line"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="end">
+
+                    <LinearLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="@string/total_priced"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/tv_Total_Price_without_discount"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1dp"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="1dp"
+                            android:gravity="end"
+                            android:text="0000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="@string/total_tax"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/tv_Total_tax"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="0000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="@string/total_discount"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/tv_Total_Discount"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="end"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="0000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="5dp"
+                        android:weightSum="2">
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginRight="1px"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="@string/grand_total"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:textStyle="bold"
+                            android:textColor="#000000"
+                            android:id="@+id/tv_Total_Price"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="1px"
+                            android:layout_marginEnd="15dp"
+                            android:layout_marginTop="1px"
+                            android:gravity="end"
+                            android:text="0000"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:background="@drawable/horizontal_dashed_line"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginRight="1px"
+                        android:layout_marginTop="1px"
+                        android:gravity="end"
+                        android:text="Total Paid"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/tv_totalPaid"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="1px"
+                        android:gravity="end"
+                        android:text="0000"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginRight="1px"
+                        android:layout_marginTop="1px"
+                        android:gravity="end"
+                        android:text="Total Due"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/tv_Due"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="1px"
+                        android:gravity="end"
+                        android:text="0000"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginRight="1px"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="1px"
+                        android:gravity="start"
+                        android:text="HelpLine : "
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textColor="#000000"
+                        android:id="@+id/tv_helpline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="1px"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginTop="1px"
+                        android:layout_marginStart="10dp"
+                        android:gravity="start"
+                        android:text="01916574623"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+
+                <!--        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="end">
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone">
+
+                                <android.support.design.widget.FloatingActionButton
+                                    android:id="@+id/print_receipt"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="20dp"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Print"
+                                    android:elevation="16dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/white"
+                                    />
+
+                            </FrameLayout>
+
+                        </LinearLayout>-->
+
+
+                <!--            <Button-->
+                <!--                android:layout_marginTop="20dp"-->
+                <!--                android:id="@+id/print_receipt"-->
+                <!--                android:text="@string/print_receipt"-->
+                <!--                android:layout_width="150dp"-->
+                <!--                android:layout_gravity="center"-->
+                <!--                android:layout_height="55dp"-->
+                <!--                android:gravity="center"-->
+                <!--                android:textSize="15sp"-->
+                <!--                android:textStyle="bold"-->
+                <!--                android:textColor="@color/colorPrimary"-->
+                <!--                android:visibility="visible"-->
+                <!--                android:background="@drawable/round_button"/>-->
+
+
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_footer"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+<!--            <View-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="1dp"-->
+<!--                android:background="@color/black"-->
+<!--                />-->
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:paddingBottom="15dp"
+                >
+                <LinearLayout
+                    android:id="@+id/print_receipt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_marginEnd="15sp"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/printer"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Print"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/share_receipt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:paddingTop="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/shareicon"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Share"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_newSale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নতুন বিক্রয় শুরু করুন"
+                android:background="@color/black"
+                android:layout_margin="5dp"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

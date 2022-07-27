@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    android:weightSum="6"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+
+        <ImageView
+            android:id="@+id/img_backArrow_large"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:maxWidth="90dp"
+            android:minWidth="45dp"
+            android:padding="5dp"
+            android:src="@drawable/backspace_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:foregroundGravity="center_vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            android:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_store"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            app:layout_constraintStart_toEndOf="@+id/img_backArrow_large"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/spinner_block"
+            app:ms_background_color="@color/colorPrimary"
+            app:ms_arrow_tint="@color/white"
+            app:ms_text_color="@color/white"
+            android:prompt="@string/market_id"
+            android:spinnerMode="dropdown"
+            android:textSize="14sp" />
+
+        <!--<EditText
+            android:id="@+id/et_search_land"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:hint="Search"
+            android:textEditPasteWindowLayout="@color/white"
+            android:visibility="gone"
+            android:textColorHighlight="@null"
+            android:background="@android:color/transparent"
+            app:layout_constraintStart_toEndOf="@+id/img_backArrow_large"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/iv_clear_text_btn_land"
+            />-->
+
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spinnerId"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            app:hintText="Search Product"
+            style="@android:style/Widget.Holo.Light.Spinner"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--<ImageView
+            android:id="@+id/iv_clear_text_btn_land"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:visibility="gone"
+            android:src="@drawable/close_white_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />-->
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:background="@color/white"
+        >
+        <include layout="@layout/toolbar_all_sales_item_calculation"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/base"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

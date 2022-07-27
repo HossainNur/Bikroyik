@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/my_drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:context="UI.activity.MainActivity">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_reporting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:cardCornerRadius="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/card_background"
+            android:layout_marginTop="20dp"
+            app:cardElevation="30dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="2"
+
+                android:minHeight="150dp"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_margin="1dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    >
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#FF7F50"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/tv_saleToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total Sales"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:id="@+id/todaySales"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bdt 00"
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="#FA8072"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+                        <TextView
+                            android:id="@+id/tv_monthlySale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Monthly Sales"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tv_saleAmountMonthly"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bdt 00"
+                            android:textAllCaps="true"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="1dp"
+                    android:orientation="horizontal"
+                    android:weightSum="7"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:background="#26C281"
+                        android:layout_marginRight="1dp"
+                        >
+                        <TextView
+                            android:id="@+id/tv_today"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Today"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.7"
+                        android:background="#03A678"
+                        android:layout_marginRight="1dp"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_salesToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Sales"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                        <TextView
+                            android:id="@+id/tv_salesTodayAmount"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bdt 00"
+                            android:textAllCaps="true"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:background="#4DAF7C"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginRight="1dp"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_dueToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Due"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            />
+                        <TextView
+                            android:id="@+id/tv_dueAmountToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bdt 00"
+                            android:textAllCaps="true"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:background="#59C648"
+                        >
+
+                        <TextView
+                            android:id="@+id/tv_expenseToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Expense"
+                            android:textColor="@color/white"
+                            android:padding="5dp"
+                            />
+                        <TextView
+                            android:id="@+id/tv_expenseAmountToday"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bdt 00"
+                            android:textAllCaps="true"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/homeFeature_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="3dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/home_reporting"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    <fragment
+        android:id="@+id/fragment_navigation_drawer"
+        android:name="com.inovex.bikroyik.UI.fragments.NavigationDrawer"
+        android:layout_width="@dimen/nav_drawer_width"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:layout="@layout/fragment_nav_drawer"
+        tools:layout="@layout/fragment_nav_drawer" />
+
+   <!-- <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/navigationViewId"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/activity_navigation_drawer"
+
+        />-->
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.AddRetailerFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:fadeScrollbars="false">
+
+            <!-- Your scrolling content -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/retailer_image"
+                    android:layout_marginTop="10dp"
+                    app:srcCompat="@drawable/add_photo"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center_horizontal"
+                    tools:ignore="VectorDrawableCompat" />
+
+                <!--
+                                    <Button
+                                        android:textColor="@color/white"
+                                        android:id="@+id/capture_image"
+                                        android:layout_width="180dp"
+                                        android:layout_height="wrap_content"
+                                        android:textAllCaps="false"
+                                        android:text="@string/capture_image"
+                                        android:background="@color/colorPrimary"
+                                        android:layout_marginTop="30dp"/>
+                -->
+
+                <EditText
+                    android:id="@+id/tv_store_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/store_name"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/retail_owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/retail_owner"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#000000"
+                    />
+
+                <EditText
+                    android:id="@+id/retail_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/retail_address"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#000000"
+                    />
+
+
+                <EditText
+                    android:id="@+id/phone_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/phone_no"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#000000"
+                    />
+
+
+
+                <EditText
+                    android:id="@+id/national_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/national_id"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textColor="#000000"
+                    />
+
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_marginTop="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorPrimary"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:weightSum="10"
+                            android:orientation="horizontal">
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight="0.05"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary"/>
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/market_id"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="9.9"
+                                android:layout_marginEnd="10dp"
+                                android:layout_marginStart="10dp"
+                                android:spinnerMode="dropdown"
+                                android:background="@drawable/spinner_block"
+                                android:textSize="14sp"
+                                android:prompt="@string/market_id"/>
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight="0.05"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_marginTop="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/colorPrimary"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:weightSum="10"
+                            android:orientation="horizontal">
+
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight="0.05"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary"/>
+
+                            <Spinner
+                                android:id="@+id/retailer_type_spinner"
+                                android:layout_width="0dp"
+                                android:layout_height="50dp"
+                                android:layout_weight="9.9"
+                                />
+
+                            <View
+                                android:layout_width="0dp"
+                                android:layout_weight="0.05"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colorPrimary"/>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:weightSum="3"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/add_retailer_location"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="2"
+                        android:hint="@string/location"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginStart="10dp"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_get_location"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimary"
+                        android:text="@string/get_location"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/submit_new_retailer"
+                    android:layout_width="180dp"
+                    android:layout_height="40dp"
+                    android:textAllCaps="false"
+                    android:text="@string/submit"
+                    android:textColor="@color/white"
+                    android:background="@color/colorPrimary"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="50dp"/>
+
+
+            </LinearLayout>
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

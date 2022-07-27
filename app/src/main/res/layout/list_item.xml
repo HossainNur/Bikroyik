@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:baselineAligned="false"
+    app:cardBackgroundColor="@color/white"
+    app:cardMaxElevation="40dp"
+    tools:ignore="MissingClass">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/listText"
+            android:text="nur"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="syc"
+            android:gravity="right"
+            android:layout_marginRight="25dp"
+            android:textSize="25sp"
+            android:textColor="@color/red_primary"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <!--<TextView
+        android:id="@+id/syncText"
+        android:text="sync"
+        android:textSize="22sp"
+        android:gravity="right"
+        android:layout_marginRight="25dp"
+        android:textColor="@color/red_primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>-->
+
+
+
+
+
+</androidx.cardview.widget.CardView>

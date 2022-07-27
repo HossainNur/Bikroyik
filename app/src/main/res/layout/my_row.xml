@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:baselineAligned="false"
+    app:cardBackgroundColor="@color/fb_gray"
+    app:cardCornerRadius="15dp"
+    app:cardMaxElevation="40dp"
+    tools:ignore="MissingClass">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ADD8E6"
+        android:padding="20dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/dateId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:visibility="gone"
+                android:textSize="15sp"
+                android:textColor="@color/jet"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/orderIdTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="orderId:"
+                android:textSize="15sp"
+                />
+            <!--<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="ট:"
+
+
+                />-->
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right|center_vertical"
+                android:layout_gravity="right"
+                android:layout_marginRight="5dp"
+                android:textSize="20sp"
+                android:text="sync"
+                android:textColor="@color/red_primary_darker"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/totalPriceTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total Price:"
+                android:textSize="15sp"
+                android:textColor="@color/jet"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/discountTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Discount"
+            android:textSize="15sp"
+
+            />
+        <!--<TextView
+            android:id="@+id/grandTotalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Grand Total"
+            android:textSize="15sp"
+
+            />-->
+
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

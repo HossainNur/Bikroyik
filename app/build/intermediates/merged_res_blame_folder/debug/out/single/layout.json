@@ -1,0 +1,946 @@
+[
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_order_history.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_schedule_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_schedule_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_pending.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_pending.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_stock.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_item_edit.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_item_edit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_task_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_task_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_tax_discount_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_tax_discount_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_navigation_drawer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_for_edit_sales_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_for_edit_sales_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_pos.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_pos.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_edit_homepage.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_edit_homepage.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_all_sales_item_calculation.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_all_sales_item_calculation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\message_image_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_image_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notifications.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_details_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_details_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_options_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login_new.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_login_new.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_complain_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_group_notice.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_group_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sales_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\target_list_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_list_item_fragment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_item_fragment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_route.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_route.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\layout_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_due2.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_due2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\supported_toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\supported_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\paid_fragment_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\paid_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pos.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pos.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\my_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_baki.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_baki.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\submitted_retailer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\submitted_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_drawer_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\nav_drawer_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_submitted_retailer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_submitted_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_product_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_product_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_add_retailer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\leave_sample.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\leave_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_stock.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bill.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_bill.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_order_pending.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_order_pending.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_history.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ranking_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\ranking_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_delivery.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_delivery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\expense_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\expense_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home_mr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_stock_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_stock_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_total_charge_calculation.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_total_charge_calculation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_others.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_others.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_dashboard1.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_dashboard1.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notification.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash2.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_expense.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile_info.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_profile_info.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_summery_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_summery_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_make_payment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_make_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\route_list_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_purchase.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_purchase.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home_sr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_sr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_options_sr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_sr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\main_options_mr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\main_options_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\attendance_summery.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendance_summery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\route_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_quick_calculator.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_quick_calculator.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sells_khata.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_sells_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_scan.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_scan.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_products_directory.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_products_directory.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_history_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_history_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_buy.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_buy.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_expense_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_expense_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sales_toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sales_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_list_group.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\final_order_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_meeting.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_meeting.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\message_list_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\target_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_list_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_stock.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_stock.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_rent.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_rent.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_signin.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_signin.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\edit_page_toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\edit_page_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_password_change.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_password_change.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\ordered_item_child_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\ordered_item_child_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_product_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contact_list_toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contact_list_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\task_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\task_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\final_order_details_sample.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_details_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_signup.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_signup.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_message_delivery_man.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_message_delivery_man.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_layout.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\spinner_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_party_meeting.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_party_meeting.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_product.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_change_language.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_change_language.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_change_language.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_change_language.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\file_notification_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\file_notification_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\orders_details_sample.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\orders_details_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_order_history.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_order_history.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendance_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendance_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\new_order_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\new_order_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\new_messaging_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\new_messaging_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_homescreen_mr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_homescreen_mr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_screen_navigation.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_screen_navigation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_profile.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_profile.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sync.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sync.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_kpi.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_kpi.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\schedule_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\schedule_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_splash_merchant.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_splash_merchant.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_contact.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_new_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_large_landscape.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_large_landscape.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_grid_product_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_grid_product_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_product_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_product_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\message_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\message_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_bakir_khata.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_call_scheduler.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_call_scheduler.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\product_grid_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\product_grid_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_paid.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_paid.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\confirm_visit_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\confirm_visit_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_order_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\due_fragment_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\due_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_product_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sells_khata.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sells_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_sells.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_sells.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_target.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_target.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_sales_large_landscape.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_sales_large_landscape.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_summary.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_summary.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_add_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contact_point_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contact_point_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\list_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_target.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_target.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_contact_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_contact_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pos_login.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pos_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\phone_list_child_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\phone_list_child_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\attendance_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendance_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_deposit.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_deposit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendence.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendence.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_attendance_summery.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_attendance_summery.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\pager_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\pager_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\popup_permission_guideline.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\popup_permission_guideline.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_others.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_others.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\detail_expense_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\detail_expense_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_new_sales_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_new_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\final_order_sample_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\final_order_sample_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_order_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\brand_gridview_layout.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\brand_gridview_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\leave_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\leave_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notification_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\notification_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_messaging.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_messaging.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_delivery_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_delivery_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_add_retailer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_add_retailer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_pop_up_window_activitiy.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_pop_up_window_activitiy.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_searchable_spinner.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\dialog_searchable_spinner.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_rent.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_rent.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_bill.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_bill.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_quick_sale.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_quick_sale.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_product_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\my_selected_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\my_selected_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_spinner_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\custom_spinner_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_final_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_final_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_employee_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_products.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_route_card.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_route_card.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_due_client.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_due_client.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_contact.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\order_recylclerview.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\order_recylclerview.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_update_sales_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_update_sales_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_product3.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product3.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_due.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_due.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_contacts.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\feature_item.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\feature_item.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_deposit.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_deposit.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\done_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\done_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_alert_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\custom_alert_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_phone_book.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_phone_book.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_final_orders_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_final_orders_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_quick_sales.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_quick_sales.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_screen_navigation.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_screen_navigation.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_employee_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_product_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_product_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_expense.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_notice.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_route.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_route.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\contacts_list_row.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\contacts_list_row.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\add_task_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\add_task_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\submitted_retailers.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\submitted_retailers.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_notice.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_notice.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_nav_drawer.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_nav_drawer.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\selling_product_layout.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\selling_product_layout.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\cash_collection_popup_activity.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\cash_collection_popup_activity.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\dialog_attendance.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\dialog_attendance.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_payment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_complain.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\child_product_grid_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\child_product_grid_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\drop_down_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\drop_down_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\employee_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\employee_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\seller_list_toolbar.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\seller_list_toolbar.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sample_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\splash_new_bikroyik.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\splash_new_bikroyik.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_new_contact.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_new_contact.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\target_list_group.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\target_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_dashboard.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_dashboard.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_payment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\item_card_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\item_card_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\select_retailer_payment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\select_retailer_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_homescreen_hr.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_homescreen_hr.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_due_list.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_due_list.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_password_change2.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_password_change2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_complain_sample.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_complain_sample.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_print.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_print.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\file_details_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\file_details_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_expense.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_expense.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_leave.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_leave.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\route_list_group.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\route_list_group.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_each_order_details.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_each_order_details.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sells_fragment_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\sells_fragment_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\due_iteam.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\due_iteam.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_brand_directory.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_brand_directory.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_due_collection.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_due_collection.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_home_order.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main_bikroyik.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_main_bikroyik.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_product2.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\fragment_product2.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\employee_list_view.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\employee_list_view.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_bakir_khata.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_bakir_khata.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_make_payment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\toolbar_make_payment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\attendence_comment.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\attendence_comment.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\notice_dialog.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\notice_dialog.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_dash_board.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_dash_board.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_network_state_receiver.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout\\activity_network_state_receiver.xml"
+    }
+]

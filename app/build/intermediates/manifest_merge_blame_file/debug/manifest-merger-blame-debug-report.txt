@@ -1,0 +1,934 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.inovex.bikroyik"
+4    android:versionCode="17"
+5    android:versionName="1.1.8" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->F:\android\paikar\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\android\paikar\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:5-79
+11-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:22-76
+12    <uses-permission
+12-->F:\android\paikar\app\src\main\AndroidManifest.xml:7:5-9:38
+13        android:name="android.permission.BLUETOOTH"
+13-->F:\android\paikar\app\src\main\AndroidManifest.xml:8:9-52
+14        android:maxSdkVersion="30" />
+14-->F:\android\paikar\app\src\main\AndroidManifest.xml:9:9-35
+15    <uses-permission
+15-->F:\android\paikar\app\src\main\AndroidManifest.xml:10:5-12:38
+16        android:name="android.permission.BLUETOOTH_ADMIN"
+16-->F:\android\paikar\app\src\main\AndroidManifest.xml:11:9-58
+17        android:maxSdkVersion="30" />
+17-->F:\android\paikar\app\src\main\AndroidManifest.xml:12:9-35
+18    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+18-->F:\android\paikar\app\src\main\AndroidManifest.xml:13:5-73
+18-->F:\android\paikar\app\src\main\AndroidManifest.xml:13:22-70
+19    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+19-->F:\android\paikar\app\src\main\AndroidManifest.xml:14:5-78
+19-->F:\android\paikar\app\src\main\AndroidManifest.xml:14:22-75
+20    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- Needed only if your app uses Bluetooth scan results to derive physical location. -->
+20-->F:\android\paikar\app\src\main\AndroidManifest.xml:15:5-76
+20-->F:\android\paikar\app\src\main\AndroidManifest.xml:15:22-73
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->F:\android\paikar\app\src\main\AndroidManifest.xml:16:5-79
+21-->F:\android\paikar\app\src\main\AndroidManifest.xml:16:22-76
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:5-79
+22-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:22-76
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->F:\android\paikar\app\src\main\AndroidManifest.xml:18:5-72
+23-->F:\android\paikar\app\src\main\AndroidManifest.xml:18:22-69
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->F:\android\paikar\app\src\main\AndroidManifest.xml:19:5-73
+24-->F:\android\paikar\app\src\main\AndroidManifest.xml:19:22-70
+25    <uses-permission android:name="android.permission.INTERNET" /> <!-- GPS -->
+25-->F:\android\paikar\app\src\main\AndroidManifest.xml:20:5-67
+25-->F:\android\paikar\app\src\main\AndroidManifest.xml:20:22-64
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->F:\android\paikar\app\src\main\AndroidManifest.xml:16:5-79
+26-->F:\android\paikar\app\src\main\AndroidManifest.xml:16:22-76
+27    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+27-->F:\android\paikar\app\src\main\AndroidManifest.xml:22:5-81
+27-->F:\android\paikar\app\src\main\AndroidManifest.xml:22:22-78
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->F:\android\paikar\app\src\main\AndroidManifest.xml:23:5-75
+28-->F:\android\paikar\app\src\main\AndroidManifest.xml:23:22-72
+29    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+29-->F:\android\paikar\app\src\main\AndroidManifest.xml:24:5-81
+29-->F:\android\paikar\app\src\main\AndroidManifest.xml:24:22-78
+30    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+30-->F:\android\paikar\app\src\main\AndroidManifest.xml:25:5-27:40
+30-->F:\android\paikar\app\src\main\AndroidManifest.xml:26:9-65
+31    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+31-->F:\android\paikar\app\src\main\AndroidManifest.xml:28:5-80
+31-->F:\android\paikar\app\src\main\AndroidManifest.xml:28:22-77
+32    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+32-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:5-79
+32-->F:\android\paikar\app\src\main\AndroidManifest.xml:6:22-76
+33    <uses-permission android:name="android.permission.CALL_PHONE" />
+33-->F:\android\paikar\app\src\main\AndroidManifest.xml:30:5-69
+33-->F:\android\paikar\app\src\main\AndroidManifest.xml:30:22-66
+34    <uses-permission android:name="android.permission.CAMERA" /> <!-- Camera -->
+34-->F:\android\paikar\app\src\main\AndroidManifest.xml:31:5-65
+34-->F:\android\paikar\app\src\main\AndroidManifest.xml:31:22-62
+35    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+35-->F:\android\paikar\app\src\main\AndroidManifest.xml:32:5-77
+35-->F:\android\paikar\app\src\main\AndroidManifest.xml:32:22-74
+36    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+36-->F:\android\paikar\app\src\main\AndroidManifest.xml:33:5-85
+36-->F:\android\paikar\app\src\main\AndroidManifest.xml:33:22-82
+37    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+37-->F:\android\paikar\app\src\main\AndroidManifest.xml:34:5-76
+37-->F:\android\paikar\app\src\main\AndroidManifest.xml:34:22-73
+38    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+38-->F:\android\paikar\app\src\main\AndroidManifest.xml:35:5-76
+38-->F:\android\paikar\app\src\main\AndroidManifest.xml:35:22-73
+39
+40    <supports-screens android:anyDensity="true" />
+40-->F:\android\paikar\app\src\main\AndroidManifest.xml:37:5-51
+40-->F:\android\paikar\app\src\main\AndroidManifest.xml:37:23-48
+41
+42    <uses-feature
+42-->F:\android\paikar\app\src\main\AndroidManifest.xml:39:5-41:35
+43        android:name="android.hardware.camera"
+43-->F:\android\paikar\app\src\main\AndroidManifest.xml:40:9-47
+44        android:required="true" />
+44-->F:\android\paikar\app\src\main\AndroidManifest.xml:41:9-32
+45    <uses-feature
+45-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+46        android:glEsVersion="0x00020000"
+46-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+47        android:required="true" />
+47-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+48
+49    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+49-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:5-68
+49-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:23:22-65
+50    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+50-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:5-82
+50-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:25:22-79
+51    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+51-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:5-110
+51-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:26:22-107
+52
+53    <queries>
+53-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:11:5-13:15
+54        <package android:name="com.facebook.katana" />
+54-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:12:9-55
+54-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:12:18-52
+55    </queries>
+56
+57    <application
+57-->F:\android\paikar\app\src\main\AndroidManifest.xml:43:5-355:19
+58        android:allowBackup="true"
+58-->F:\android\paikar\app\src\main\AndroidManifest.xml:44:9-35
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.5.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\16998f089f7ea765ee8ef9450c29aa61\core-1.5.0\AndroidManifest.xml:24:18-86
+60        android:debuggable="true"
+61        android:icon="@mipmap/ic_launcher"
+61-->F:\android\paikar\app\src\main\AndroidManifest.xml:45:9-43
+62        android:label="@string/app_name"
+62-->F:\android\paikar\app\src\main\AndroidManifest.xml:46:9-41
+63        android:roundIcon="@mipmap/ic_launcher_round"
+63-->F:\android\paikar\app\src\main\AndroidManifest.xml:47:9-54
+64        android:supportsRtl="true"
+64-->F:\android\paikar\app\src\main\AndroidManifest.xml:48:9-35
+65        android:testOnly="true"
+66        android:theme="@style/Theme.Paiker"
+66-->F:\android\paikar\app\src\main\AndroidManifest.xml:49:9-44
+67        android:usesCleartextTraffic="true" >
+67-->F:\android\paikar\app\src\main\AndroidManifest.xml:50:9-44
+68        <receiver
+68-->F:\android\paikar\app\src\main\AndroidManifest.xml:54:9-60:20
+69            android:name="com.inovex.bikroyik.NetworkStateChangeReceiver"
+69-->F:\android\paikar\app\src\main\AndroidManifest.xml:55:13-55
+70            android:exported="false" >
+70-->F:\android\paikar\app\src\main\AndroidManifest.xml:56:13-37
+71            <intent-filter>
+71-->F:\android\paikar\app\src\main\AndroidManifest.xml:57:13-59:29
+72                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+72-->F:\android\paikar\app\src\main\AndroidManifest.xml:58:17-79
+72-->F:\android\paikar\app\src\main\AndroidManifest.xml:58:25-76
+73            </intent-filter>
+74        </receiver>
+75
+76        <activity
+76-->F:\android\paikar\app\src\main\AndroidManifest.xml:62:9-64:40
+77            android:name="com.inovex.bikroyik.UI.activity.OrderPendingActivity"
+77-->F:\android\paikar\app\src\main\AndroidManifest.xml:63:13-61
+78            android:exported="false" />
+78-->F:\android\paikar\app\src\main\AndroidManifest.xml:64:13-37
+79        <activity
+79-->F:\android\paikar\app\src\main\AndroidManifest.xml:65:9-67:40
+80            android:name="com.inovex.bikroyik.UI.activity.SignUpActivity"
+80-->F:\android\paikar\app\src\main\AndroidManifest.xml:66:13-55
+81            android:exported="false" />
+81-->F:\android\paikar\app\src\main\AndroidManifest.xml:67:13-37
+82        <activity
+82-->F:\android\paikar\app\src\main\AndroidManifest.xml:68:9-80:20
+83            android:name="com.inovex.bikroyik.UI.activity.SplashActivity"
+83-->F:\android\paikar\app\src\main\AndroidManifest.xml:69:13-55
+84            android:exported="true" >
+84-->F:\android\paikar\app\src\main\AndroidManifest.xml:70:13-36
+85
+86            <!--
+87            <intent-filter>
+88                <action android:name="android.intent.action.MAIN" />
+89
+90                <category android:name="android.intent.category.LAUNCHER" />
+91            </intent-filter>
+92            -->
+93
+94        </activity>
+95        <activity
+95-->F:\android\paikar\app\src\main\AndroidManifest.xml:81:9-84:57
+96            android:name="com.inovex.bikroyik.UI.activity.PopUpWindowActivitiy"
+96-->F:\android\paikar\app\src\main\AndroidManifest.xml:82:13-61
+97            android:exported="false"
+97-->F:\android\paikar\app\src\main\AndroidManifest.xml:83:13-37
+98            android:theme="@style/Theme.Paiker.popMe" />
+98-->F:\android\paikar\app\src\main\AndroidManifest.xml:84:13-54
+99        <activity
+99-->F:\android\paikar\app\src\main\AndroidManifest.xml:85:9-87:40
+100            android:name="com.inovex.bikroyik.UI.activity.OrderItemActivity"
+100-->F:\android\paikar\app\src\main\AndroidManifest.xml:86:13-58
+101            android:exported="false" />
+101-->F:\android\paikar\app\src\main\AndroidManifest.xml:87:13-37
+102        <activity
+102-->F:\android\paikar\app\src\main\AndroidManifest.xml:88:9-90:40
+103            android:name="com.inovex.bikroyik.UI.activity.ChangeLanguageActivity"
+103-->F:\android\paikar\app\src\main\AndroidManifest.xml:89:13-63
+104            android:exported="false" />
+104-->F:\android\paikar\app\src\main\AndroidManifest.xml:90:13-37
+105        <activity
+105-->F:\android\paikar\app\src\main\AndroidManifest.xml:91:9-93:40
+106            android:name="com.inovex.bikroyik.UI.activity.OrderDetailsViewActivity"
+106-->F:\android\paikar\app\src\main\AndroidManifest.xml:92:13-65
+107            android:exported="false" />
+107-->F:\android\paikar\app\src\main\AndroidManifest.xml:93:13-37
+108        <activity
+108-->F:\android\paikar\app\src\main\AndroidManifest.xml:94:9-96:40
+109            android:name="com.inovex.bikroyik.UI.activity.ScreenNavigation"
+109-->F:\android\paikar\app\src\main\AndroidManifest.xml:95:13-57
+110            android:exported="false" />
+110-->F:\android\paikar\app\src\main\AndroidManifest.xml:96:13-37
+111        <activity
+111-->F:\android\paikar\app\src\main\AndroidManifest.xml:97:9-99:40
+112            android:name="com.inovex.bikroyik.UI.activity.PasswordUpdatedActivity"
+112-->F:\android\paikar\app\src\main\AndroidManifest.xml:98:13-64
+113            android:exported="false" />
+113-->F:\android\paikar\app\src\main\AndroidManifest.xml:99:13-37
+114        <activity
+114-->F:\android\paikar\app\src\main\AndroidManifest.xml:100:9-102:40
+115            android:name="com.inovex.bikroyik.UI.activity.ProfileInfoActivity"
+115-->F:\android\paikar\app\src\main\AndroidManifest.xml:101:13-60
+116            android:exported="false" />
+116-->F:\android\paikar\app\src\main\AndroidManifest.xml:102:13-37
+117        <activity
+117-->F:\android\paikar\app\src\main\AndroidManifest.xml:103:9-105:40
+118            android:name="com.inovex.bikroyik.UI.activity.StockActivity"
+118-->F:\android\paikar\app\src\main\AndroidManifest.xml:104:13-54
+119            android:exported="false" />
+119-->F:\android\paikar\app\src\main\AndroidManifest.xml:105:13-37
+120        <activity
+120-->F:\android\paikar\app\src\main\AndroidManifest.xml:106:9-108:40
+121            android:name="com.inovex.bikroyik.UI.activity.ProductListActivity"
+121-->F:\android\paikar\app\src\main\AndroidManifest.xml:107:13-60
+122            android:exported="false" />
+122-->F:\android\paikar\app\src\main\AndroidManifest.xml:108:13-37
+123        <activity
+123-->F:\android\paikar\app\src\main\AndroidManifest.xml:109:9-111:40
+124            android:name="com.inovex.bikroyik.UI.activity.DepositActivity"
+124-->F:\android\paikar\app\src\main\AndroidManifest.xml:110:13-56
+125            android:exported="false" />
+125-->F:\android\paikar\app\src\main\AndroidManifest.xml:111:13-37
+126        <activity
+126-->F:\android\paikar\app\src\main\AndroidManifest.xml:112:9-114:40
+127            android:name="com.inovex.bikroyik.UI.activity.DueListActivity"
+127-->F:\android\paikar\app\src\main\AndroidManifest.xml:113:13-56
+128            android:exported="false" />
+128-->F:\android\paikar\app\src\main\AndroidManifest.xml:114:13-37
+129        <activity
+129-->F:\android\paikar\app\src\main\AndroidManifest.xml:115:9-117:40
+130            android:name="com.inovex.bikroyik.UI.activity.EmployeeListActivity"
+130-->F:\android\paikar\app\src\main\AndroidManifest.xml:116:13-61
+131            android:exported="false" />
+131-->F:\android\paikar\app\src\main\AndroidManifest.xml:117:13-37
+132        <activity
+132-->F:\android\paikar\app\src\main\AndroidManifest.xml:118:9-120:40
+133            android:name="com.inovex.bikroyik.UI.activity.OthersActivity"
+133-->F:\android\paikar\app\src\main\AndroidManifest.xml:119:13-55
+134            android:exported="false" />
+134-->F:\android\paikar\app\src\main\AndroidManifest.xml:120:13-37
+135        <activity
+135-->F:\android\paikar\app\src\main\AndroidManifest.xml:121:9-123:40
+136            android:name="com.inovex.bikroyik.UI.activity.RentActivity"
+136-->F:\android\paikar\app\src\main\AndroidManifest.xml:122:13-53
+137            android:exported="false" />
+137-->F:\android\paikar\app\src\main\AndroidManifest.xml:123:13-37
+138        <activity
+138-->F:\android\paikar\app\src\main\AndroidManifest.xml:124:9-126:40
+139            android:name="com.inovex.bikroyik.UI.activity.BillActivity"
+139-->F:\android\paikar\app\src\main\AndroidManifest.xml:125:13-53
+140            android:exported="false" />
+140-->F:\android\paikar\app\src\main\AndroidManifest.xml:126:13-37
+141        <activity
+141-->F:\android\paikar\app\src\main\AndroidManifest.xml:127:9-129:40
+142            android:name="com.inovex.bikroyik.UI.activity.PaymentActivity"
+142-->F:\android\paikar\app\src\main\AndroidManifest.xml:128:13-56
+143            android:exported="false" />
+143-->F:\android\paikar\app\src\main\AndroidManifest.xml:129:13-37
+144        <activity
+144-->F:\android\paikar\app\src\main\AndroidManifest.xml:130:9-132:40
+145            android:name="com.inovex.bikroyik.UI.activity.BuyActivity"
+145-->F:\android\paikar\app\src\main\AndroidManifest.xml:131:13-52
+146            android:exported="false" />
+146-->F:\android\paikar\app\src\main\AndroidManifest.xml:132:13-37
+147        <activity
+147-->F:\android\paikar\app\src\main\AndroidManifest.xml:133:9-135:40
+148            android:name="com.inovex.bikroyik.UI.activity.Expense"
+148-->F:\android\paikar\app\src\main\AndroidManifest.xml:134:13-48
+149            android:exported="false" />
+149-->F:\android\paikar\app\src\main\AndroidManifest.xml:135:13-37
+150        <activity
+150-->F:\android\paikar\app\src\main\AndroidManifest.xml:136:9-138:40
+151            android:name="com.inovex.bikroyik.UI.activity.MainActivity"
+151-->F:\android\paikar\app\src\main\AndroidManifest.xml:137:13-53
+152            android:exported="false" />
+152-->F:\android\paikar\app\src\main\AndroidManifest.xml:138:13-37
+153        <activity
+153-->F:\android\paikar\app\src\main\AndroidManifest.xml:139:9-151:20
+154            android:name="com.inovex.bikroyik.SplashActivityMerchant"
+154-->F:\android\paikar\app\src\main\AndroidManifest.xml:140:13-51
+155            android:exported="true" >
+155-->F:\android\paikar\app\src\main\AndroidManifest.xml:141:13-36
+156
+157            <!--
+158           <intent-filter>
+159               <action android:name="android.intent.action.MAIN" />
+160
+161               <category android:name="android.intent.category.LAUNCHER" />
+162           </intent-filter>
+163            -->
+164
+165        </activity>
+166        <activity
+166-->F:\android\paikar\app\src\main\AndroidManifest.xml:152:9-154:40
+167            android:name="com.inovex.bikroyik.UI.activity.SelectPosActivity"
+167-->F:\android\paikar\app\src\main\AndroidManifest.xml:153:13-58
+168            android:exported="false" />
+168-->F:\android\paikar\app\src\main\AndroidManifest.xml:154:13-37
+169        <activity
+169-->F:\android\paikar\app\src\main\AndroidManifest.xml:155:9-158:54
+170            android:name="com.inovex.bikroyik.UI.activity.SigninActivity"
+170-->F:\android\paikar\app\src\main\AndroidManifest.xml:156:13-55
+171            android:exported="false"
+171-->F:\android\paikar\app\src\main\AndroidManifest.xml:157:13-37
+172            android:theme="@style/MyMaterialTheme" />
+172-->F:\android\paikar\app\src\main\AndroidManifest.xml:158:13-51
+173        <activity
+173-->F:\android\paikar\app\src\main\AndroidManifest.xml:159:9-162:54
+174            android:name="com.inovex.bikroyik.UI.activity.OrderHistoryActivity"
+174-->F:\android\paikar\app\src\main\AndroidManifest.xml:160:13-61
+175            android:exported="false"
+175-->F:\android\paikar\app\src\main\AndroidManifest.xml:161:13-37
+176            android:theme="@style/MyMaterialTheme" />
+176-->F:\android\paikar\app\src\main\AndroidManifest.xml:162:13-51
+177        <activity
+177-->F:\android\paikar\app\src\main\AndroidManifest.xml:163:9-166:54
+178            android:name="com.inovex.bikroyik.UI.activity.ScanActivity"
+178-->F:\android\paikar\app\src\main\AndroidManifest.xml:164:13-53
+179            android:exported="false"
+179-->F:\android\paikar\app\src\main\AndroidManifest.xml:165:13-37
+180            android:theme="@style/MyMaterialTheme" />
+180-->F:\android\paikar\app\src\main\AndroidManifest.xml:166:13-51
+181        <activity
+181-->F:\android\paikar\app\src\main\AndroidManifest.xml:167:9-170:54
+182            android:name="com.inovex.bikroyik.UI.activity.PhoneBookActivity"
+182-->F:\android\paikar\app\src\main\AndroidManifest.xml:168:13-58
+183            android:exported="false"
+183-->F:\android\paikar\app\src\main\AndroidManifest.xml:169:13-37
+184            android:theme="@style/MyMaterialTheme" />
+184-->F:\android\paikar\app\src\main\AndroidManifest.xml:170:13-51
+185        <activity
+185-->F:\android\paikar\app\src\main\AndroidManifest.xml:171:9-174:74
+186            android:name="com.inovex.bikroyik.UI.activity.NewContact"
+186-->F:\android\paikar\app\src\main\AndroidManifest.xml:172:13-51
+187            android:exported="false"
+187-->F:\android\paikar\app\src\main\AndroidManifest.xml:173:13-37
+188            android:theme="@style/MyMaterialTheme.BlackTextOptionMenu" />
+188-->F:\android\paikar\app\src\main\AndroidManifest.xml:174:13-71
+189        <activity
+189-->F:\android\paikar\app\src\main\AndroidManifest.xml:175:9-179:54
+190            android:name="com.inovex.bikroyik.UI.activity.ContactListActivity"
+190-->F:\android\paikar\app\src\main\AndroidManifest.xml:176:13-60
+191            android:exported="true"
+191-->F:\android\paikar\app\src\main\AndroidManifest.xml:177:13-36
+192            android:label="LibMain"
+192-->F:\android\paikar\app\src\main\AndroidManifest.xml:178:13-36
+193            android:theme="@style/MyMaterialTheme" />
+193-->F:\android\paikar\app\src\main\AndroidManifest.xml:179:13-51
+194        <activity
+194-->F:\android\paikar\app\src\main\AndroidManifest.xml:180:9-184:54
+195            android:name="com.inovex.bikroyik.UI.activity.BakirKhata"
+195-->F:\android\paikar\app\src\main\AndroidManifest.xml:181:13-51
+196            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|uiMode"
+196-->F:\android\paikar\app\src\main\AndroidManifest.xml:182:13-90
+197            android:exported="false"
+197-->F:\android\paikar\app\src\main\AndroidManifest.xml:183:13-37
+198            android:theme="@style/MyMaterialTheme" />
+198-->F:\android\paikar\app\src\main\AndroidManifest.xml:184:13-51
+199        <activity
+199-->F:\android\paikar\app\src\main\AndroidManifest.xml:185:9-188:54
+200            android:name="com.inovex.bikroyik.UI.activity.OrderPrintActivity"
+200-->F:\android\paikar\app\src\main\AndroidManifest.xml:186:13-59
+201            android:exported="true"
+201-->F:\android\paikar\app\src\main\AndroidManifest.xml:187:13-36
+202            android:theme="@style/MyMaterialTheme" />
+202-->F:\android\paikar\app\src\main\AndroidManifest.xml:188:13-51
+203        <activity
+203-->F:\android\paikar\app\src\main\AndroidManifest.xml:189:9-192:54
+204            android:name="com.inovex.bikroyik.UI.activity.PrintActivity"
+204-->F:\android\paikar\app\src\main\AndroidManifest.xml:190:13-54
+205            android:exported="true"
+205-->F:\android\paikar\app\src\main\AndroidManifest.xml:191:13-36
+206            android:theme="@style/MyMaterialTheme" />
+206-->F:\android\paikar\app\src\main\AndroidManifest.xml:192:13-51
+207        <activity android:name="com.inovex.bikroyik.UI.activity.DeviceList" />
+207-->F:\android\paikar\app\src\main\AndroidManifest.xml:193:9-60
+207-->F:\android\paikar\app\src\main\AndroidManifest.xml:193:19-57
+208        <activity
+208-->F:\android\paikar\app\src\main\AndroidManifest.xml:194:9-197:54
+209            android:name="com.inovex.bikroyik.UI.activity.MakePaymentActivity"
+209-->F:\android\paikar\app\src\main\AndroidManifest.xml:195:13-60
+210            android:exported="false"
+210-->F:\android\paikar\app\src\main\AndroidManifest.xml:196:13-37
+211            android:theme="@style/MyMaterialTheme" />
+211-->F:\android\paikar\app\src\main\AndroidManifest.xml:197:13-51
+212        <activity
+212-->F:\android\paikar\app\src\main\AndroidManifest.xml:198:9-201:54
+213            android:name="com.inovex.bikroyik.UI.activity.TotalChargeCalculationActivity"
+213-->F:\android\paikar\app\src\main\AndroidManifest.xml:199:13-71
+214            android:exported="false"
+214-->F:\android\paikar\app\src\main\AndroidManifest.xml:200:13-37
+215            android:theme="@style/MyMaterialTheme" />
+215-->F:\android\paikar\app\src\main\AndroidManifest.xml:201:13-51
+216        <activity
+216-->F:\android\paikar\app\src\main\AndroidManifest.xml:202:9-205:54
+217            android:name="com.inovex.bikroyik.UI.activity.SingleOrderItemActivity"
+217-->F:\android\paikar\app\src\main\AndroidManifest.xml:203:13-64
+218            android:exported="false"
+218-->F:\android\paikar\app\src\main\AndroidManifest.xml:204:13-37
+219            android:theme="@style/MyMaterialTheme" />
+219-->F:\android\paikar\app\src\main\AndroidManifest.xml:205:13-51
+220        <activity
+220-->F:\android\paikar\app\src\main\AndroidManifest.xml:206:9-209:55
+221            android:name="com.inovex.bikroyik.UI.activity.OrderActivity"
+221-->F:\android\paikar\app\src\main\AndroidManifest.xml:207:13-54
+222            android:exported="false"
+222-->F:\android\paikar\app\src\main\AndroidManifest.xml:208:13-37
+223            android:windowSoftInputMode="adjustPan" />
+223-->F:\android\paikar\app\src\main\AndroidManifest.xml:209:13-52
+224        <activity
+224-->F:\android\paikar\app\src\main\AndroidManifest.xml:210:9-212:40
+225            android:name="com.inovex.bikroyik.UI.activity.DashBoardActivity"
+225-->F:\android\paikar\app\src\main\AndroidManifest.xml:211:13-58
+226            android:exported="false" />
+226-->F:\android\paikar\app\src\main\AndroidManifest.xml:212:13-37
+227        <activity
+227-->F:\android\paikar\app\src\main\AndroidManifest.xml:213:9-216:54
+228            android:name="com.inovex.bikroyik.UI.activity.EditHomepageActivity"
+228-->F:\android\paikar\app\src\main\AndroidManifest.xml:214:13-61
+229            android:exported="true"
+229-->F:\android\paikar\app\src\main\AndroidManifest.xml:215:13-36
+230            android:theme="@style/MyMaterialTheme" />
+230-->F:\android\paikar\app\src\main\AndroidManifest.xml:216:13-51
+231        <activity
+231-->F:\android\paikar\app\src\main\AndroidManifest.xml:217:9-219:49
+232            android:name="com.inovex.bikroyik.activity.PasswordChangeActivity"
+232-->F:\android\paikar\app\src\main\AndroidManifest.xml:218:13-60
+233            android:theme="@style/LogInStyle" />
+233-->F:\android\paikar\app\src\main\AndroidManifest.xml:219:13-46
+234        <activity
+234-->F:\android\paikar\app\src\main\AndroidManifest.xml:220:9-222:54
+235            android:name="com.inovex.bikroyik.activity.RouteActivity"
+235-->F:\android\paikar\app\src\main\AndroidManifest.xml:221:13-51
+236            android:theme="@style/MyMaterialTheme" />
+236-->F:\android\paikar\app\src\main\AndroidManifest.xml:222:13-51
+237        <activity
+237-->F:\android\paikar\app\src\main\AndroidManifest.xml:223:9-225:54
+238            android:name="com.inovex.bikroyik.activity.NoticeActivity"
+238-->F:\android\paikar\app\src\main\AndroidManifest.xml:224:13-52
+239            android:theme="@style/MyMaterialTheme" />
+239-->F:\android\paikar\app\src\main\AndroidManifest.xml:225:13-51
+240        <activity
+240-->F:\android\paikar\app\src\main\AndroidManifest.xml:226:9-228:54
+241            android:name="com.inovex.bikroyik.activity.MessageActivityDeliveryMan"
+241-->F:\android\paikar\app\src\main\AndroidManifest.xml:227:13-64
+242            android:theme="@style/MyMaterialTheme" />
+242-->F:\android\paikar\app\src\main\AndroidManifest.xml:228:13-51
+243
+244        <meta-data
+244-->F:\android\paikar\app\src\main\AndroidManifest.xml:230:9-232:53
+245            android:name="com.google.firebase.messaging.default_notification_color"
+245-->F:\android\paikar\app\src\main\AndroidManifest.xml:231:13-84
+246            android:resource="@color/colorAccent" />
+246-->F:\android\paikar\app\src\main\AndroidManifest.xml:232:13-50
+247        <meta-data
+247-->F:\android\paikar\app\src\main\AndroidManifest.xml:233:9-235:71
+248            android:name="com.google.firebase.messaging.default_notification_channel_id"
+248-->F:\android\paikar\app\src\main\AndroidManifest.xml:234:13-89
+249            android:value="@string/default_notification_channel_id" />
+249-->F:\android\paikar\app\src\main\AndroidManifest.xml:235:13-68
+250
+251        <activity
+251-->F:\android\paikar\app\src\main\AndroidManifest.xml:237:9-246:20
+252            android:name="com.inovex.bikroyik.activity.SplashActivity"
+252-->F:\android\paikar\app\src\main\AndroidManifest.xml:238:13-52
+253            android:exported="true"
+253-->F:\android\paikar\app\src\main\AndroidManifest.xml:239:13-36
+254            android:theme="@style/SplashTheme" >
+254-->F:\android\paikar\app\src\main\AndroidManifest.xml:240:13-47
+255            <intent-filter>
+255-->F:\android\paikar\app\src\main\AndroidManifest.xml:241:13-245:29
+256                <action android:name="android.intent.action.MAIN" />
+256-->F:\android\paikar\app\src\main\AndroidManifest.xml:242:17-69
+256-->F:\android\paikar\app\src\main\AndroidManifest.xml:242:25-66
+257
+258                <category android:name="android.intent.category.LAUNCHER" />
+258-->F:\android\paikar\app\src\main\AndroidManifest.xml:244:17-77
+258-->F:\android\paikar\app\src\main\AndroidManifest.xml:244:27-74
+259            </intent-filter>
+260        </activity>
+261        <activity
+261-->F:\android\paikar\app\src\main\AndroidManifest.xml:247:9-249:54
+262            android:name="com.inovex.bikroyik.activity.MainActivity"
+262-->F:\android\paikar\app\src\main\AndroidManifest.xml:248:13-50
+263            android:theme="@style/MyMaterialTheme" />
+263-->F:\android\paikar\app\src\main\AndroidManifest.xml:249:13-51
+264        <activity android:name="com.inovex.bikroyik.activity.LogInActivity1" />
+264-->F:\android\paikar\app\src\main\AndroidManifest.xml:250:9-61
+264-->F:\android\paikar\app\src\main\AndroidManifest.xml:250:19-58
+265        <activity
+265-->F:\android\paikar\app\src\main\AndroidManifest.xml:251:9-253:49
+266            android:name="com.inovex.bikroyik.activity.LoginActivity"
+266-->F:\android\paikar\app\src\main\AndroidManifest.xml:252:13-51
+267            android:theme="@style/LogInStyle" />
+267-->F:\android\paikar\app\src\main\AndroidManifest.xml:253:13-46
+268        <activity android:name="com.inovex.bikroyik.activity.HomeScreenMR" />
+268-->F:\android\paikar\app\src\main\AndroidManifest.xml:254:9-59
+268-->F:\android\paikar\app\src\main\AndroidManifest.xml:254:19-56
+269        <activity
+269-->F:\android\paikar\app\src\main\AndroidManifest.xml:255:9-257:54
+270            android:name="com.inovex.bikroyik.activity.PartyMeetingActivity"
+270-->F:\android\paikar\app\src\main\AndroidManifest.xml:256:13-58
+271            android:theme="@style/MyMaterialTheme" />
+271-->F:\android\paikar\app\src\main\AndroidManifest.xml:257:13-51
+272        <activity
+272-->F:\android\paikar\app\src\main\AndroidManifest.xml:258:9-260:54
+273            android:name="com.inovex.bikroyik.activity.LoadingActivity"
+273-->F:\android\paikar\app\src\main\AndroidManifest.xml:259:13-53
+274            android:theme="@style/MyMaterialTheme" />
+274-->F:\android\paikar\app\src\main\AndroidManifest.xml:260:13-51
+275        <activity android:name="com.inovex.bikroyik.adapter.DeviceList" />
+275-->F:\android\paikar\app\src\main\AndroidManifest.xml:261:9-56
+275-->F:\android\paikar\app\src\main\AndroidManifest.xml:261:19-53
+276        <activity
+276-->F:\android\paikar\app\src\main\AndroidManifest.xml:262:9-264:54
+277            android:name="com.inovex.bikroyik.activity.FinalOrder"
+277-->F:\android\paikar\app\src\main\AndroidManifest.xml:263:13-48
+278            android:theme="@style/MyMaterialTheme" />
+278-->F:\android\paikar\app\src\main\AndroidManifest.xml:264:13-51
+279        <activity android:name="com.inovex.bikroyik.activity.ProductsDirectoryActivity" />
+279-->F:\android\paikar\app\src\main\AndroidManifest.xml:265:9-72
+279-->F:\android\paikar\app\src\main\AndroidManifest.xml:265:19-69
+280        <activity android:name="com.inovex.bikroyik.activity.SubmittedRetailers" />
+280-->F:\android\paikar\app\src\main\AndroidManifest.xml:266:9-65
+280-->F:\android\paikar\app\src\main\AndroidManifest.xml:266:19-62
+281        <activity
+281-->F:\android\paikar\app\src\main\AndroidManifest.xml:267:9-269:54
+282            android:name="com.inovex.bikroyik.activity.SalesOrderActivity"
+282-->F:\android\paikar\app\src\main\AndroidManifest.xml:268:13-56
+283            android:theme="@style/MyMaterialTheme" />
+283-->F:\android\paikar\app\src\main\AndroidManifest.xml:269:13-51
+284        <activity
+284-->F:\android\paikar\app\src\main\AndroidManifest.xml:270:9-272:54
+285            android:name="com.inovex.bikroyik.activity.NewSalesOrderActivity"
+285-->F:\android\paikar\app\src\main\AndroidManifest.xml:271:13-59
+286            android:theme="@style/MyMaterialTheme" />
+286-->F:\android\paikar\app\src\main\AndroidManifest.xml:272:13-51
+287        <activity
+287-->F:\android\paikar\app\src\main\AndroidManifest.xml:273:9-275:54
+288            android:name="com.inovex.bikroyik.activity.SalesOrderDetailActivity"
+288-->F:\android\paikar\app\src\main\AndroidManifest.xml:274:13-62
+289            android:theme="@style/MyMaterialTheme" />
+289-->F:\android\paikar\app\src\main\AndroidManifest.xml:275:13-51
+290        <activity
+290-->F:\android\paikar\app\src\main\AndroidManifest.xml:276:9-278:54
+291            android:name="com.inovex.bikroyik.activity.PrintActivity"
+291-->F:\android\paikar\app\src\main\AndroidManifest.xml:277:13-51
+292            android:theme="@style/MyMaterialTheme" />
+292-->F:\android\paikar\app\src\main\AndroidManifest.xml:278:13-51
+293        <activity
+293-->F:\android\paikar\app\src\main\AndroidManifest.xml:279:9-281:54
+294            android:name="com.inovex.bikroyik.activity.OrderDeliveryActivity"
+294-->F:\android\paikar\app\src\main\AndroidManifest.xml:280:13-59
+295            android:theme="@style/MyMaterialTheme" />
+295-->F:\android\paikar\app\src\main\AndroidManifest.xml:281:13-51
+296        <activity
+296-->F:\android\paikar\app\src\main\AndroidManifest.xml:282:9-284:54
+297            android:name="com.inovex.bikroyik.activity.OrderDetailsActivity"
+297-->F:\android\paikar\app\src\main\AndroidManifest.xml:283:13-58
+298            android:theme="@style/MyMaterialTheme" />
+298-->F:\android\paikar\app\src\main\AndroidManifest.xml:284:13-51
+299        <activity
+299-->F:\android\paikar\app\src\main\AndroidManifest.xml:285:9-287:67
+300            android:name="com.inovex.bikroyik.activity.AddRetailer"
+300-->F:\android\paikar\app\src\main\AndroidManifest.xml:286:13-49
+301            android:parentActivityName="com.inovex.bikroyik.activity.MainActivity" />
+301-->F:\android\paikar\app\src\main\AndroidManifest.xml:287:13-64
+302        <activity
+302-->F:\android\paikar\app\src\main\AndroidManifest.xml:288:9-290:54
+303            android:name="com.inovex.bikroyik.activity.DueCollectionActivity"
+303-->F:\android\paikar\app\src\main\AndroidManifest.xml:289:13-59
+304            android:theme="@style/MyMaterialTheme" />
+304-->F:\android\paikar\app\src\main\AndroidManifest.xml:290:13-51
+305        <activity
+305-->F:\android\paikar\app\src\main\AndroidManifest.xml:291:9-293:54
+306            android:name="com.inovex.bikroyik.activity.TargetActivity"
+306-->F:\android\paikar\app\src\main\AndroidManifest.xml:292:13-52
+307            android:theme="@style/MyMaterialTheme" />
+307-->F:\android\paikar\app\src\main\AndroidManifest.xml:293:13-51
+308        <activity android:name="com.inovex.bikroyik.activity.AddOrder" />
+308-->F:\android\paikar\app\src\main\AndroidManifest.xml:294:9-55
+308-->F:\android\paikar\app\src\main\AndroidManifest.xml:294:19-52
+309        <activity
+309-->F:\android\paikar\app\src\main\AndroidManifest.xml:295:9-297:54
+310            android:name="com.inovex.bikroyik.activity.FinalOrderDetailsActivity"
+310-->F:\android\paikar\app\src\main\AndroidManifest.xml:296:13-63
+311            android:theme="@style/MyMaterialTheme" />
+311-->F:\android\paikar\app\src\main\AndroidManifest.xml:297:13-51
+312        <activity
+312-->F:\android\paikar\app\src\main\AndroidManifest.xml:298:9-300:54
+313            android:name="com.inovex.bikroyik.activity.OrderList"
+313-->F:\android\paikar\app\src\main\AndroidManifest.xml:299:13-47
+314            android:theme="@style/MyMaterialTheme" />
+314-->F:\android\paikar\app\src\main\AndroidManifest.xml:300:13-51
+315        <activity
+315-->F:\android\paikar\app\src\main\AndroidManifest.xml:301:9-303:54
+316            android:name="com.inovex.bikroyik.activity.NotificationActivity"
+316-->F:\android\paikar\app\src\main\AndroidManifest.xml:302:13-58
+317            android:theme="@style/MyMaterialTheme" />
+317-->F:\android\paikar\app\src\main\AndroidManifest.xml:303:13-51
+318        <activity
+318-->F:\android\paikar\app\src\main\AndroidManifest.xml:304:9-306:63
+319            android:name="com.inovex.bikroyik.popup.CashCollectionPopupActivity"
+319-->F:\android\paikar\app\src\main\AndroidManifest.xml:305:13-62
+320            android:theme="@style/Theme.Paiker.CustomPopUp" />
+320-->F:\android\paikar\app\src\main\AndroidManifest.xml:306:13-60
+321        <activity
+321-->F:\android\paikar\app\src\main\AndroidManifest.xml:307:9-309:63
+322            android:name="com.inovex.bikroyik.popup.PermissionGuideline"
+322-->F:\android\paikar\app\src\main\AndroidManifest.xml:308:13-54
+323            android:theme="@style/Theme.Paiker.CustomPopUp" />
+323-->F:\android\paikar\app\src\main\AndroidManifest.xml:309:13-60
+324
+325        <service android:name="com.inovex.bikroyik.services.SalesForceService" />
+325-->F:\android\paikar\app\src\main\AndroidManifest.xml:311:9-63
+325-->F:\android\paikar\app\src\main\AndroidManifest.xml:311:18-60
+326        <service android:name="com.inovex.bikroyik.services.AlarmService" />
+326-->F:\android\paikar\app\src\main\AndroidManifest.xml:312:9-58
+326-->F:\android\paikar\app\src\main\AndroidManifest.xml:312:18-55
+327        <service android:name="com.inovex.bikroyik.services.BluetoothServices" />
+327-->F:\android\paikar\app\src\main\AndroidManifest.xml:313:9-63
+327-->F:\android\paikar\app\src\main\AndroidManifest.xml:313:18-60
+328        <service
+328-->F:\android\paikar\app\src\main\AndroidManifest.xml:314:9-317:39
+329            android:name="com.inovex.bikroyik.services.ForegroundService"
+329-->F:\android\paikar\app\src\main\AndroidManifest.xml:315:13-55
+330            android:enabled="true"
+330-->F:\android\paikar\app\src\main\AndroidManifest.xml:316:13-35
+331            android:exported="true" />
+331-->F:\android\paikar\app\src\main\AndroidManifest.xml:317:13-36
+332
+333        <receiver android:name="com.inovex.bikroyik.receiver.AppBroadcastReceiver" />
+333-->F:\android\paikar\app\src\main\AndroidManifest.xml:319:9-67
+333-->F:\android\paikar\app\src\main\AndroidManifest.xml:319:19-64
+334        <receiver
+334-->F:\android\paikar\app\src\main\AndroidManifest.xml:320:9-327:20
+335            android:name="com.inovex.bikroyik.receiver.BootReceiver"
+335-->F:\android\paikar\app\src\main\AndroidManifest.xml:321:13-50
+336            android:enabled="true"
+336-->F:\android\paikar\app\src\main\AndroidManifest.xml:322:13-35
+337            android:exported="true" >
+337-->F:\android\paikar\app\src\main\AndroidManifest.xml:323:13-36
+338            <intent-filter>
+338-->F:\android\paikar\app\src\main\AndroidManifest.xml:324:13-326:29
+339                <action android:name="android.intent.action.BOOT_COMPLETED" />
+339-->F:\android\paikar\app\src\main\AndroidManifest.xml:325:17-79
+339-->F:\android\paikar\app\src\main\AndroidManifest.xml:325:25-76
+340            </intent-filter>
+341        </receiver>
+342
+343        <service
+343-->F:\android\paikar\app\src\main\AndroidManifest.xml:329:9-331:72
+344            android:name="com.inovex.bikroyik.services.LocationJobService"
+344-->F:\android\paikar\app\src\main\AndroidManifest.xml:330:13-56
+345            android:permission="android.permission.BIND_JOB_SERVICE" />
+345-->F:\android\paikar\app\src\main\AndroidManifest.xml:331:13-69
+346        <service
+346-->F:\android\paikar\app\src\main\AndroidManifest.xml:332:9-335:72
+347            android:name="com.inovex.bikroyik.services.AppService"
+347-->F:\android\paikar\app\src\main\AndroidManifest.xml:333:13-48
+348            android:enabled="true"
+348-->F:\android\paikar\app\src\main\AndroidManifest.xml:334:13-35
+349            android:permission="android.permission.BIND_JOB_SERVICE" />
+349-->F:\android\paikar\app\src\main\AndroidManifest.xml:335:13-69
+350        <service
+350-->F:\android\paikar\app\src\main\AndroidManifest.xml:336:9-344:19
+351            android:name="com.inovex.bikroyik.services.NotificationFMService"
+351-->F:\android\paikar\app\src\main\AndroidManifest.xml:337:13-59
+352            android:exported="false" >
+352-->F:\android\paikar\app\src\main\AndroidManifest.xml:338:13-37
+353            <intent-filter>
+353-->F:\android\paikar\app\src\main\AndroidManifest.xml:339:13-343:29
+354
+355                <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+356                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+356-->F:\android\paikar\app\src\main\AndroidManifest.xml:342:17-78
+356-->F:\android\paikar\app\src\main\AndroidManifest.xml:342:25-75
+357            </intent-filter>
+358        </service>
+359
+360        <provider
+361            android:name="androidx.core.content.FileProvider"
+361-->F:\android\paikar\app\src\main\AndroidManifest.xml:347:13-62
+362            android:authorities="com.inovex.bikroyik.provider"
+362-->F:\android\paikar\app\src\main\AndroidManifest.xml:348:13-60
+363            android:exported="false"
+363-->F:\android\paikar\app\src\main\AndroidManifest.xml:349:13-37
+364            android:grantUriPermissions="true" >
+364-->F:\android\paikar\app\src\main\AndroidManifest.xml:350:13-47
+365            <meta-data
+365-->F:\android\paikar\app\src\main\AndroidManifest.xml:351:13-353:53
+366                android:name="android.support.FILE_PROVIDER_PATHS"
+366-->F:\android\paikar\app\src\main\AndroidManifest.xml:352:17-67
+367                android:resource="@xml/file_path" />
+367-->F:\android\paikar\app\src\main\AndroidManifest.xml:353:17-50
+368        </provider>
+369        <!-- Needs to be explicitly declared on P+ -->
+370        <uses-library
+370-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+371            android:name="org.apache.http.legacy"
+371-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+372            android:required="false" />
+372-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\6932e837eeb83bdf62b023c4aff2cc7d\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+373
+374        <provider
+374-->[com.squareup.picasso:picasso:2.71828] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\06b1c445d61bde2ac693db5c8a80dd5c\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+375            android:name="com.squareup.picasso.PicassoProvider"
+375-->[com.squareup.picasso:picasso:2.71828] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\06b1c445d61bde2ac693db5c8a80dd5c\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+376            android:authorities="com.inovex.bikroyik.com.squareup.picasso"
+376-->[com.squareup.picasso:picasso:2.71828] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\06b1c445d61bde2ac693db5c8a80dd5c\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+377            android:exported="false" />
+377-->[com.squareup.picasso:picasso:2.71828] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\06b1c445d61bde2ac693db5c8a80dd5c\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+378
+379        <service
+379-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:29:9-35:19
+380            android:name="com.google.firebase.components.ComponentDiscoveryService"
+380-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:30:13-84
+381            android:directBootAware="true"
+381-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+382            android:exported="false" >
+382-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:31:13-37
+383            <meta-data
+383-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:32:13-34:85
+384                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+384-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:33:17-109
+385                android:value="com.google.firebase.components.ComponentRegistrar" />
+385-->[com.google.firebase:firebase-database:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\a2853226c250aa14aa2ef03d9616066d\jetified-firebase-database-20.0.0\AndroidManifest.xml:34:17-82
+386            <meta-data
+386-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:52:13-54:85
+387                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+387-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:53:17-119
+388                android:value="com.google.firebase.components.ComponentRegistrar" />
+388-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:54:17-82
+389            <meta-data
+389-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19e01921004424931744f04d8d368c96\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:28:13-30:85
+390                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+390-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19e01921004424931744f04d8d368c96\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:29:17-115
+391                android:value="com.google.firebase.components.ComponentRegistrar" />
+391-->[com.google.firebase:firebase-datatransport:18.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19e01921004424931744f04d8d368c96\jetified-firebase-datatransport-18.0.0\AndroidManifest.xml:30:17-82
+392            <meta-data
+392-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\638bdb8c339cf2dfed9f62b417a2e10d\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:30:13-32:85
+393                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+393-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\638bdb8c339cf2dfed9f62b417a2e10d\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:31:17-139
+394                android:value="com.google.firebase.components.ComponentRegistrar" />
+394-->[com.google.android.gms:play-services-measurement-api:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\638bdb8c339cf2dfed9f62b417a2e10d\jetified-play-services-measurement-api-19.0.0\AndroidManifest.xml:32:17-82
+395            <meta-data
+395-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19dadad118a241790ce0e7f2671f870b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:18:13-20:85
+396                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+396-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19dadad118a241790ce0e7f2671f870b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:19:17-127
+397                android:value="com.google.firebase.components.ComponentRegistrar" />
+397-->[com.google.firebase:firebase-installations:17.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19dadad118a241790ce0e7f2671f870b\jetified-firebase-installations-17.0.0\AndroidManifest.xml:20:17-82
+398        </service>
+399
+400        <receiver
+400-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:28:9-35:20
+401            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+401-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:29:13-78
+402            android:exported="true"
+402-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:30:13-36
+403            android:permission="com.google.android.c2dm.permission.SEND" >
+403-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:31:13-73
+404            <intent-filter>
+404-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:32:13-34:29
+405                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+405-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:17-81
+405-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:33:25-78
+406            </intent-filter>
+407        </receiver>
+408        <!--
+409             FirebaseMessagingService performs security checks at runtime,
+410             but set to not exported to explicitly avoid allowing another app to call it.
+411        -->
+412        <service
+412-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:41:9-48:19
+413            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+413-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:42:13-82
+414            android:directBootAware="true"
+414-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:43:13-43
+415            android:exported="false" >
+415-->[com.google.firebase:firebase-messaging:22.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\304a53af790c927684309a343baf4446\jetified-firebase-messaging-22.0.0\AndroidManifest.xml:44:13-37
+416            <intent-filter android:priority="-500" >
+416-->F:\android\paikar\app\src\main\AndroidManifest.xml:339:13-343:29
+417                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+417-->F:\android\paikar\app\src\main\AndroidManifest.xml:342:17-78
+417-->F:\android\paikar\app\src\main\AndroidManifest.xml:342:25-75
+418            </intent-filter>
+419        </service>
+420
+421        <receiver
+421-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:29:9-33:20
+422            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+422-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:30:13-85
+423            android:enabled="true"
+423-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:31:13-35
+424            android:exported="false" >
+424-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:32:13-37
+425        </receiver>
+426
+427        <service
+427-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:35:9-38:40
+428            android:name="com.google.android.gms.measurement.AppMeasurementService"
+428-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:36:13-84
+429            android:enabled="true"
+429-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:37:13-35
+430            android:exported="false" />
+430-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:38:13-37
+431        <service
+431-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:39:9-43:72
+432            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+432-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:40:13-87
+433            android:enabled="true"
+433-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:41:13-35
+434            android:exported="false"
+434-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:42:13-37
+435            android:permission="android.permission.BIND_JOB_SERVICE" />
+435-->[com.google.android.gms:play-services-measurement:19.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\2e2c95bd2e443821b22ca32964277a18\jetified-play-services-measurement-19.0.0\AndroidManifest.xml:43:13-69
+436
+437        <activity
+437-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\8e5585d1574a2e42d17c8622ea780896\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+438            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+438-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\8e5585d1574a2e42d17c8622ea780896\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+439            android:exported="false"
+439-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\8e5585d1574a2e42d17c8622ea780896\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+440            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+440-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\8e5585d1574a2e42d17c8622ea780896\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+441        <activity
+441-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:19:9-23:75
+442            android:name="com.facebook.ads.AudienceNetworkActivity"
+442-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:20:13-68
+443            android:configChanges="keyboardHidden|orientation|screenSize"
+443-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:21:13-74
+444            android:exported="false"
+444-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:22:13-37
+445            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+445-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:23:13-72
+446
+447        <provider
+447-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:25:9-28:40
+448            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+448-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:26:13-75
+449            android:authorities="com.inovex.bikroyik.AudienceNetworkContentProvider"
+449-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:27:13-82
+450            android:exported="false" />
+450-->[com.facebook.android:audience-network-sdk:6.11.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\10a53680dcd26622b773f1ee974d177d\jetified-audience-network-sdk-6.11.0\AndroidManifest.xml:28:13-37
+451        <provider
+451-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+452            android:name="com.google.firebase.provider.FirebaseInitProvider"
+452-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+453            android:authorities="com.inovex.bikroyik.firebaseinitprovider"
+453-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+454            android:directBootAware="true"
+454-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+455            android:exported="false"
+455-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+456            android:initOrder="100" />
+456-->[com.google.firebase:firebase-common:20.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\f354ba22926d1553a14fe516ab59086e\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+457
+458        <meta-data
+458-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\381f48dd3d421b549823d1d52d25487b\jetified-play-services-basement-17.4.0\AndroidManifest.xml:23:9-25:69
+459            android:name="com.google.android.gms.version"
+459-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\381f48dd3d421b549823d1d52d25487b\jetified-play-services-basement-17.4.0\AndroidManifest.xml:24:13-58
+460            android:value="@integer/google_play_services_version" />
+460-->[com.google.android.gms:play-services-basement:17.4.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\381f48dd3d421b549823d1d52d25487b\jetified-play-services-basement-17.4.0\AndroidManifest.xml:25:13-66
+461
+462        <service
+462-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:29:9-35:19
+463            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+463-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:30:13-103
+464            android:exported="false" >
+464-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:31:13-37
+465            <meta-data
+465-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:32:13-34:39
+466                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+466-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:33:17-94
+467                android:value="cct" />
+467-->[com.google.android.datatransport:transport-backend-cct:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\3bfa14fa58589902b0bbc017489edffe\jetified-transport-backend-cct-3.0.0\AndroidManifest.xml:34:17-36
+468        </service>
+469        <service
+469-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:26:9-30:19
+470            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+470-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:27:13-117
+471            android:exported="false"
+471-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:28:13-37
+472            android:permission="android.permission.BIND_JOB_SERVICE" >
+472-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:29:13-69
+473        </service>
+474
+475        <receiver
+475-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:32:9-34:40
+476            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+476-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:33:13-132
+477            android:exported="false" />
+477-->[com.google.android.datatransport:transport-runtime:3.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\19130d3e0701360ac24a0a588ea9d59d\jetified-transport-runtime-3.0.0\AndroidManifest.xml:34:13-37
+478
+479        <provider
+479-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\83ef393eeed36f4322f70acef172aefc\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+480            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+480-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\83ef393eeed36f4322f70acef172aefc\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+481            android:authorities="com.inovex.bikroyik.lifecycle-process"
+481-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\83ef393eeed36f4322f70acef172aefc\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+482            android:exported="false"
+482-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\83ef393eeed36f4322f70acef172aefc\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+483            android:multiprocess="true" />
+483-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\New Laptop\.gradle\caches\transforms-2\files-2.1\83ef393eeed36f4322f70acef172aefc\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+484    </application>
+485
+486</manifest>

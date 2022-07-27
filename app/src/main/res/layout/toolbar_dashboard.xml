@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/colorPrimary"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/llBack"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/dashboardIcon"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/dasboard" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvHomeToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_toRightOf="@id/llBack"
+            android:gravity="center_vertical"
+            android:text="Dashboard"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+</androidx.appcompat.widget.Toolbar>

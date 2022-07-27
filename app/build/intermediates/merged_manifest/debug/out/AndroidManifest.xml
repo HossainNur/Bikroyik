@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.inovex.bikroyik"
+    android:versionCode="17"
+    android:versionName="1.1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH"
+        android:maxSdkVersion="30" />
+    <uses-permission
+        android:name="android.permission.BLUETOOTH_ADMIN"
+        android:maxSdkVersion="30" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" /> <!-- Needed only if your app uses Bluetooth scan results to derive physical location. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- GPS -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Camera -->
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <queries>
+        <package android:name="com.facebook.katana" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Paiker"
+        android:usesCleartextTraffic="true" >
+        <receiver
+            android:name="com.inovex.bikroyik.NetworkStateChangeReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderPendingActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.SplashActivity"
+            android:exported="true" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.PopUpWindowActivitiy"
+            android:exported="false"
+            android:theme="@style/Theme.Paiker.popMe" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderItemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ChangeLanguageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderDetailsViewActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ScreenNavigation"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.PasswordUpdatedActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ProfileInfoActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.StockActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ProductListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.DepositActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.DueListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.EmployeeListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OthersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.RentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.BillActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.BuyActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.Expense"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.SplashActivityMerchant"
+            android:exported="true" >
+
+            <!--
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+
+               <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+            -->
+
+        </activity>
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.SelectPosActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.SigninActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderHistoryActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ScanActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.PhoneBookActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.NewContact"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme.BlackTextOptionMenu" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.ContactListActivity"
+            android:exported="true"
+            android:label="LibMain"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.BakirKhata"
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|uiMode"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderPrintActivity"
+            android:exported="true"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.PrintActivity"
+            android:exported="true"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.inovex.bikroyik.UI.activity.DeviceList" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.MakePaymentActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.TotalChargeCalculationActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.SingleOrderItemActivity"
+            android:exported="false"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.OrderActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.DashBoardActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.inovex.bikroyik.UI.activity.EditHomepageActivity"
+            android:exported="true"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.PasswordChangeActivity"
+            android:theme="@style/LogInStyle" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.RouteActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.NoticeActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.MessageActivityDeliveryMan"
+            android:theme="@style/MyMaterialTheme" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <activity
+            android:name="com.inovex.bikroyik.activity.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.inovex.bikroyik.activity.MainActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.inovex.bikroyik.activity.LogInActivity1" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.LoginActivity"
+            android:theme="@style/LogInStyle" />
+        <activity android:name="com.inovex.bikroyik.activity.HomeScreenMR" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.PartyMeetingActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.LoadingActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.inovex.bikroyik.adapter.DeviceList" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.FinalOrder"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.inovex.bikroyik.activity.ProductsDirectoryActivity" />
+        <activity android:name="com.inovex.bikroyik.activity.SubmittedRetailers" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.SalesOrderActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.NewSalesOrderActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.SalesOrderDetailActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.PrintActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.OrderDeliveryActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.OrderDetailsActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.AddRetailer"
+            android:parentActivityName="com.inovex.bikroyik.activity.MainActivity" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.DueCollectionActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.TargetActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity android:name="com.inovex.bikroyik.activity.AddOrder" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.FinalOrderDetailsActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.OrderList"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.activity.NotificationActivity"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name="com.inovex.bikroyik.popup.CashCollectionPopupActivity"
+            android:theme="@style/Theme.Paiker.CustomPopUp" />
+        <activity
+            android:name="com.inovex.bikroyik.popup.PermissionGuideline"
+            android:theme="@style/Theme.Paiker.CustomPopUp" />
+
+        <service android:name="com.inovex.bikroyik.services.SalesForceService" />
+        <service android:name="com.inovex.bikroyik.services.AlarmService" />
+        <service android:name="com.inovex.bikroyik.services.BluetoothServices" />
+        <service
+            android:name="com.inovex.bikroyik.services.ForegroundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver android:name="com.inovex.bikroyik.receiver.AppBroadcastReceiver" />
+        <receiver
+            android:name="com.inovex.bikroyik.receiver.BootReceiver"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.inovex.bikroyik.services.LocationJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.inovex.bikroyik.services.AppService"
+            android:enabled="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.inovex.bikroyik.services.NotificationFMService"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/> -->
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.inovex.bikroyik.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+        <!-- Needs to be explicitly declared on P+ -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.inovex.bikroyik.com.squareup.picasso"
+            android:exported="false" />
+
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             but set to not exported to explicitly avoid allowing another app to call it.
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.facebook.ads.AudienceNetworkActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+            android:authorities="com.inovex.bikroyik.AudienceNetworkContentProvider"
+            android:exported="false" />
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.inovex.bikroyik.firebaseinitprovider"
+            android:directBootAware="true"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
+
+        <provider
+            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+            android:authorities="com.inovex.bikroyik.lifecycle-process"
+            android:exported="false"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

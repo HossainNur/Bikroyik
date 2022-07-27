@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/depositLayout"
+    tools:context=".UI.activity.DueListActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/toolbar1"
+                layout="@layout/toolbar_baki" />
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/classSelection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="7dp"
+                android:text="শ্রেণী নির্বাচন"
+                android:textColor="@android:color/black"
+                android:textSize="19sp" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/radioCustomer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/customer"
+                    android:textSize="17sp" />
+
+                <RadioButton
+                    android:id="@+id/radioSupplier"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="7dp"
+                    android:text="@string/supplier"
+                    android:textSize="17sp" />
+            </RadioGroup>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/dueBtnId"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_backgroud"
+                    android:text="বাকি"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnDeposit"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_backgroud"
+                    android:text="জমা"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/nameId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:text="নাম"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dueName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp" />
+
+            <!--<TextView
+                android:id="@+id/expense_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="খরচের পরিমান দিতে হবে "
+                android:textColor="@color/red_primary_dark"
+                android:visibility="gone"
+                />-->
+
+            <TextView
+                android:id="@+id/mobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:text="মোবাইল নম্বর"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/dueMobileNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/dueLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/payAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="পরিশোধিত টাকা"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/paidAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/edit_background"
+                    android:drawablePadding="4dp"
+                    android:elevation="6dp"
+                    android:hint="পরিশোধিত টাকা"
+                    android:inputType="numberDecimal"
+                    android:padding="2dp"
+                    android:paddingStart="15dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/totalDueAmountId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dueAmountId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="বাকির পরিমাণ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/dueAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edit_background"
+                    android:drawablePadding="4dp"
+                    android:elevation="6dp"
+                    android:hint="বাকির পরিমাণ"
+                    android:inputType="numberDecimal"
+                    android:padding="2dp"
+                    android:paddingStart="15dp" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/depositTotalLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/depositText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="জমার পরিমাণ"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/depositAmount"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/edit_background"
+                    android:drawablePadding="4dp"
+                    android:elevation="6dp"
+                    android:hint="জমার পরিমাণ"
+                    android:inputType="numberDecimal"
+                    android:padding="2dp"
+                    android:paddingStart="15dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="7dp"
+                android:text="বিস্তারিত"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/dueDescription"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/edit_background"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:hint="বিস্তারিত"
+                android:padding="2dp"
+                android:paddingStart="15dp" />
+
+
+            <TextView
+                android:id="@+id/transaction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="লেনদেনের ধরন "
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <!--<com.jaredrummler.materialspinner.MaterialSpinner
+                android:id="@+id/spinner_mobileBanking_due"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/spinner_block"
+                android:maxLines="1"
+                android:spinnerMode="dropdown"
+                android:text="@string/select"
+                android:textSize="14sp"
+                app:ms_arrow_tint="@color/black"
+                app:ms_background_color="@color/white_4"
+                app:ms_text_color="@color/black" />-->
+            <Spinner
+                android:id="@+id/spinner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:spinnerMode="dropdown"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:text="তারিখ নির্বাচন: "
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/datePickerButton"
+                style="?android:spinnerStyle"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:onClick="openDatePicker"
+                android:text="JAN 01 2020"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/add_expense_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/ic_baseline_add_a_photo_24" />
+
+            <Button
+                android:id="@+id/savebtnId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/button_in_contact_list"
+                android:text="সেভ করুন"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
+
+
+
+</RelativeLayout>

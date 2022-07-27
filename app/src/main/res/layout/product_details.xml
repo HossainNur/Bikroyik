@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="370dp"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image"
+        android:src="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_weight="0.05"
+        android:layout_height="2dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#395723"
+        android:text="Ruchi CHanCHur"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/product_name"/>
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:text="Ruchi CHanCHur"
+        android:textSize="14dp"
+        android:id="@+id/product_id"/>
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:text="Ruchi CHanCHur"
+        android:textSize="14dp"
+        android:id="@+id/product_price"/>
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:text="Ruchi CHanCHur"
+        android:textSize="14dp"
+        android:id="@+id/product_discount"/>
+
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:text="Ruchi CHanCHur"
+        android:textSize="14dp"
+        android:id="@+id/product_offer"/>
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:text="Ruchi CHanCHur"
+        android:textSize="14dp"
+        android:id="@+id/product_desc"/>
+
+
+
+
+
+
+
+
+</LinearLayout>

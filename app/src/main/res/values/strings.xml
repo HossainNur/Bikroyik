@@ -1,0 +1,212 @@
+<resources>
+    <string name="app_name">Bikroyik</string>
+    <string name="sync">Sync</string>
+
+
+    <!--    bikroyik-->
+    <string name="sellsBook" translatable="false">Sells Book</string>
+    <string name="contactList" translatable="false">Contact List</string>
+    <string name="marketing" translatable="false">Marketing</string>
+    <string name="report" translatable="false">Report</string>
+    <string name="wholesale" translatable="false">Wholesale</string>
+    <string name="buy_sell_calculator" translatable="false">Calculator</string>
+    <string name="dueList" translatable="false">Due List</string>
+    <string name="onlineStore" translatable="false">Online Store</string>
+    <string name="extraIncome" translatable="false">Extra Income</string>
+    <string name="dashboard_merchant" translatable="false">Dashboard</string>
+    <string name="stock" translatable="false">Stock</string>
+    <string name="accountsNote" translatable="false">accountsNote</string>
+    <string name="topUp" translatable="false">Top-Up</string>
+
+    <string name="dena_pawna_entry" translatable="true">দেনা পাওনার এনট্রি</string>
+    <string name="add_new_customer" translatable="true">যোগ করুন</string>
+    <string name="sokol_contact" translatable="true">সকল কন্টাক্ট</string>
+    <string name="supplier" translatable="true">সাপ্লায়ার</string>
+    <string name="customer" translatable="true">কাস্টমার</string>
+    <string name="contact_list" translatable="true">কন্টাক্ট লিস্ট</string>
+    <string name="bakir_khata" translatable="true">বাকির খাতা</string>
+    <string name="new_contact" translatable="true">নতুন কন্টাক্ট</string>
+    <string name="mobile_number" translatable="true">মোবাইল নাম্বার*</string>
+    <string name="name" translatable="true">নাম*</string>
+    <string name="contact_type" translatable="true">কন্টাক্টের ধরণ নির্বাচন করুন</string>
+    <string name="more_information" translatable="true">আরও তথ্য</string>
+    <string name="email">ইমেইল</string>
+    <string name="address" translatable="true">ঠিকানা</string>
+    <string name="note" translatable="true">নোট</string>
+    <string name="compulsory_mobile_number" translatable="true">ফোন নম্বর দেয়া বাধ্যতামূলক</string>
+    <string name="compulsory_name" translatable="true">নাম দেয়া বাধ্যতামূলক</string>
+    <string name="phone_book" translatable="true">ফোন বুক</string>
+    <string name="no_contact" translatable="true">কোনো কন্টাক্ট নেই</string>
+    <string name="no_contact_on_phone_book" translatable="true">ফোন বুকে কোনো কন্টাক্ট যোগ করা নেই</string>
+    <string name="camera" translatable="false">Camera</string>
+    <string name="upload" translatable="false">Upload</string>
+    <string name="cash" translatable="true">CASH</string>
+    <string name="card" translatable="true">CARD</string>
+    <string name="select" translatable="true">SELECT</string>
+    <string name="due" translatable="true">DUE</string>
+    <string name="saved_order_history" translatable="true">Saved Orders History</string>
+    <string name="order_details" translatable="true">Order Details</string>
+    <string name="email_or_phone" translatable="true">Email/Phone</string>
+    <string name="select_store" translatable="true">Select Store</string>
+    <string name="enter_pin_number" translatable="true">Enter your pin</string>
+    <string name="password" translatable="true">Password</string>
+    <string name="add_client" translatable="true">Add client</string>
+    <string name="do_you_want_add_due" translatable="true">Do you want add due?</string>
+    <string name="do_you_want_print" translatable="true">Do you want to print?</string>
+    <string name="yes" translatable="true">Yes</string>
+    <string name="no" translatable="true">No</string>
+    <string name="store_contact" translatable="true">Contact: </string>
+    <string name="user_contact" translatable="true">User Contact: </string>
+    <string name="user_name" translatable="true">User Name: </string>
+    <string name="store_name_bikroyik" translatable="true">Store Name: </string>
+
+
+    <!--    paiker-->
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_two" translatable="false"></string>
+    <string name="nav_item_three" translatable="false"></string>
+    <string name="drawer_open" translatable="false">Open</string>
+    <string name="drawer_close" translatable="false">Close</string>
+    <string name="title_six" translatable="false">six</string>
+    <string name="title_five" translatable="false">five</string>
+    <string name="title_four" translatable="false">four</string>
+    <string name="title_three" translatable="false">three</string>
+    <string name="title_two" translatable="false">two</string>
+    <string name="title_one" translatable="false">one</string>
+    <string name="title_home_fragment">Dashboard</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_sync_data">Sync data</string>
+    <string name="title_product_directory">Product directory</string>
+    <string name="title_contacts">Contacts</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_call_scheduler">Call scheduler</string>
+    <string name="title_task_list">Task list</string>
+    <string name="title_messaging">Messaging</string>
+    <string name="title_notifications">Connect to printer</string>
+    <string name="title_print">Connect to printer </string>
+    <string name="title_attendence">Attendance</string>
+    <string name="dialog_product_id" translatable="false">Product id:&#160; </string>
+    <string name="dialog_product_name" translatable="false">Product name: &#160;</string>
+    <string name="dialog_product_stock" translatable="false">Stock:&#160; </string>
+    <string name="dialog_product_price" translatable="false">Price:&#160; </string>
+    <string name="dialog_product_discount" translatable="false">Discount: &#160;</string>
+    <string name="title_profile">Profile</string>
+    <string name="default_notification_channel_id" translatable="false">123548</string>
+
+    <string name="change_language">English</string>
+    <string name="language">bn</string>
+
+    <string name="notice_sample"> <p style="color: #000"><div>As a testimony of its performance, and significant contributions to the National Economy, the Group received following Awards / Achievements:</div><div>•<span style="white-space:pre" class="Apple-tab-span">	</span>Members of the Boards of Directors received CIP (Commercially Important Person) Card for consecutive fiscal years.</div><div>•<span style="white-space:pre" class="Apple-tab-span">	</span>Received the National Award for Exports in the fiscal year 2008-2009.</div><div>•<span style="white-space:pre" class="Apple-tab-span">	</span>Received the National Award for Export in the fiscal year 2010-2011.</div> </p></string>
+    <string name="products">Products</string>
+    <string name="printer">Connect to printer</string>
+    <string name="find_language">Change language</string>
+    <string name="contacts">Contacts</string>
+    <string name="call_scheduler">Call scheduler</string>
+    <string name="expenses">Expenses</string>
+    <string name="messaging">Messaging</string>
+    <string name="task_list">Task list</string>
+    <string name="notifications">Notifications</string>
+    <string name="attendence">Attendance</string>
+    <string name="profile_info">Profile info</string>
+    <string name="dashboard">Dashboard</string>
+
+    <string name="setting_menu_tittle">Homepage Menu Settings</string>
+    <string name="setting_menu_description">Add Feature (Maximum 8)</string>
+
+    <string name="sales_menu_tittle" translatable="false">Sales</string>
+    <!--    <string name="sales_menu_description" translatable="false"></string>-->
+
+    <!--     Home Fragment Card Name   -->
+
+    <string name="sales_order">Sales Order</string>
+    <string name="route_visit">Route Visit</string>
+    <string name="sales_target">Sales Target</string>
+    <string name="add_retailer">Retailer Registration</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="store_name">Store Name</string>
+    <string name="retail_owner">Owner</string>
+    <string name="national_id">National ID</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="retail_address">Retail Address</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit</string>
+    <string name="get_location">Get Location</string>
+    <string name="market_id">Market ID</string>
+    <string name="distributor_id">Distributor ID</string>
+    <string name="total_price">Total price :</string>
+    <string name="payment_method">Payment Method:</string>
+    <string name="advanced_payment">Advanced Payment</string>
+    <string name="cash_on_delivery">Cash On Delivery</string>
+    <string name="delete">Delete</string>
+    <string name="select_all">Select All</string>
+    <string name="see_orders">See Orders</string>
+    <string name="channel_name" translatable="false">Call Scheduler</string>
+    <string name="channel_description" translatable="false">Call Scheduler Channel</string>
+    <string name="retail_phone">Phone</string>
+    <string name="route_name">Route</string>
+    <string name="market_address">Market Address</string>
+    <string name="delete_product" translatable="false">Delete Product</string>
+    <string name="edit_done" translatable="false">Edit Done</string>
+    <string name="total_tax" translatable="false">Total Tax</string>
+    <string name="total_discount" translatable="false">Total Discount</string>
+    <string name="grand_total" translatable="false">Grand total</string>
+    <string name="total_priced" translatable="false">Total Price</string>
+    <string name="delivery_date" translatable="false">Delivery Date:</string>
+    <string name="retailer_contact" translatable="false">Retailer Contact :</string>
+    <string name="proceed" translatable="false">Proceed</string>
+
+
+    <string name="attendance_dialog_title_task" translatable="false">Task Deletion!!</string>
+    <string name="attendance_dialog_subtitle_task" translatable="false">Do you want to delete the task?</string>
+    <string name="attendance_dialog_title_main_activity" translatable="false">Attendance not found!!</string>
+    <string name="attendance_dialog_subtitle_main_activity" translatable="false">Do you want to give attendance?</string>
+    <string name="alert_dialog_positive" translatable="false">Yes</string>
+    <string name="alert_dialog_negative" translatable="false">No</string>
+    <string name="connect_to_printer" translatable="false">Connect to Printer</string>
+    <string name="expense_list" translatable="false">EXPENSE LIST</string>
+    <string name="product_brand_directory" translatable="false">Brand Name</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="retailer_address" translatable="false">"Retailer Address"</string>
+    <string name="route_vist_alert" translatable="false">"Did you visit this retailer? "</string>
+    <string name="already_visited" translatable="false">You already visited this place.</string>
+    <string name="succesfull_message" translatable="false">Successfully Done..</string>
+    <string name="attendance_summery" translatable="false">Attendance Summery</string>
+    <string name="title_complain" translatable="false">Complain</string>
+    <string name="title_leave" translatable="false">Leave List</string>
+    <string name="print_alert_dialog" translatable="false">Do you want to print this?</string>
+    <string name="print_receipt" translatable="false">Print Receipt</string>
+    <string name="new_sales_order" translatable="false">New Sales Order</string>
+    <string name="orders_list" translatable="false">Orders\' List</string>
+    <string name="btn_save_change_password" translatable="false">Update Password</string>
+    <string name="title_change_password" translatable="true">Password Change</string>
+    <string name="password_minimum_length" translatable="false">At least 6 characters</string>
+
+    <string name="notifications_admin_channel_name" translatable="false">Global channel</string>
+    <string name="notifications_admin_channel_description" translatable="false">Notifications sent from the app admin</string>
+
+    <string name="permission_denied_explanation" translatable="false">I dont like</string>
+    <string name="permission_guideline" translatable="false">Please follow these guideline : </string>
+    <string name="title_activity_pos_login" translatable="false">PosLogin</string>
+    <string name="prompt_email" translatable="false">Email</string>
+    <string name="prompt_password" translatable="false">Password</string>
+    <string name="action_sign_in" translatable="false">Sign in or register</string>
+    <string name="action_sign_in_short" translatable="false">Sign in</string>
+    <string name="welcome" translatable="false">"Welcome !"</string>
+    <string name="invalid_username" translatable="false">Not a valid username</string>
+    <string name="invalid_password" translatable="false">Password must be >5 characters</string>
+    <string name="login_failed" translatable="false">"Login failed"</string>
+
+    <string name="nav_open" translatable="false">Open</string>
+    <string name="nav_close" translatable="false">Close</string>
+    <!--<string name="title_activity_sells_khata">SellsKhataActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>-->
+    <string name="language_find">Change Language</string>
+    <string name="language_select">Select Language</string>
+    <string name="english">English</string>
+    <string name="bangla">Bangla</string>
+    <string name="description_popup">This app may want to Access your location all the time, even when you\'re
+        Not using App for Bluetooth scan Result and Discover the Bluetooth Devices. </string>
+
+</resources>

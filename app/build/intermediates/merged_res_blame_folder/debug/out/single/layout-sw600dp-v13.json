@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-sw600dp-v13\\activity_feedback.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-sw600dp\\activity_feedback.xml"
+    },
+    {
+        "merged": "F:\\android\\paikar\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout-sw600dp-v13\\activity_order.xml",
+        "source": "F:\\android\\paikar\\app\\src\\main\\res\\layout-sw600dp\\activity_order.xml"
+    }
+]

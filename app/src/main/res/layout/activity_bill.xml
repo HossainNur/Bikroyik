@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityBill"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.activity.BillActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/expenseAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="খরচের পরিমাণ(টাকা)"
+                android:textColor="@color/jet"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/etExpenseAmount"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+                android:drawableStart="@drawable/ic_baseline_attach_money_24"
+                android:drawablePadding="4dp"
+                android:elevation="6dp"
+                android:hint="খরচের পরিমাণ"
+                android:inputType="numberDecimal"
+                android:paddingStart="11dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/expense_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="খরচের পরিমান দিতে হবে "
+                android:textColor="@color/red_primary_dark"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_mobileNumber" />
+
+            <TextView
+                android:id="@+id/expenseNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="খরচের কারণ"
+                android:textColor="@color/jet"
+                android:textSize="20sp"
+
+                />
+
+            <EditText
+                android:id="@+id/etExpenseNote"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/edit_background"
+                android:drawableStart="@drawable/ic_baseline_note_24"
+                android:drawablePadding="8dp"
+                android:elevation="6dp"
+                android:hint="খরচের কারণ"
+                android:inputType="text"
+                android:padding="2dp"
+                android:paddingStart="11dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/expense_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="খরচের কারণ দিতে হবে"
+                android:textColor="@color/red_primary_dark"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/et_mobileNumber" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="তারিখ নির্বাচন: "
+                android:textColor="@color/jet"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/datePickerButton"
+                style="?android:spinnerStyle"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:onClick="openDatePicker"
+                android:text="JAN 01 2020"
+                android:textColor="@color/jet"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <ImageView
+                android:id="@+id/add_expense_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_add_a_photo_24" />
+
+
+            <Button
+                android:id="@+id/savebtnId"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="11dp"
+                android:text="সেভ করুন"
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/toolbar1"
+            layout="@layout/toolbar_bill" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

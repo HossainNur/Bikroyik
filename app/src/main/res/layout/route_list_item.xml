@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="3dp"
+        android:background="@color/accent"
+        android:padding="5dp"
+        app:cardBackgroundColor="@color/card_normal"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="5dp"
+            android:weightSum="10">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="8.5"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/tvRouteRetailerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="14sp"/>
+
+                <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/tvRouteRetailerOwner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/tvRouteRetailerPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"/>
+
+
+                <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/tvRouteName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:textColor="#000000"
+                    android:id="@+id/tvRouteMarketAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"/>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="wrap_content"
+                android:text="Visit"
+                android:textStyle="bold"
+                android:layout_marginEnd="2dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:id="@+id/visitStatus"
+                android:textColor="#89ff0000"
+                />
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

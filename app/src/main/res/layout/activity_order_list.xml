@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/toolbar_and_order_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <include
+            android:id="@+id/tbToolbarMeeting"
+            layout="@layout/toolbar_meeting" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/order_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/card_normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="0.01"
+            android:background="@color/colorPrimary" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/card_normal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="@string/total_priced"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_Total_Price_without_discount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="123456"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/card_normal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="@string/total_discount"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_Total_Discount"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="123456"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:paddingBottom="5dp"
+            android:background="@color/card_normal"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="@string/grand_total"
+                android:textSize="14sp" />
+
+
+            <TextView
+                android:id="@+id/tv_Total_Price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="1px"
+                android:layout_marginRight="1px"
+                android:layout_marginBottom="1px"
+                android:layout_weight="1"
+                android:background="@color/card_normal"
+                android:gravity="center"
+                android:paddingEnd="5dp"
+                android:text="123456"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/proceed"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.79"
+            android:background="@color/colorPrimary"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/proceed"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

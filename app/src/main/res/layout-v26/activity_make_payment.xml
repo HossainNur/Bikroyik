@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.activity.MakePaymentActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_make_payment"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/footer_View"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <include layout="@layout/child_contact"
+                android:id="@+id/customer_view"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                />
+            <TextView
+                android:id="@+id/tv_total_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0000.00"
+                android:textSize="15sp"
+                android:layout_marginTop="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/customer_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:autoSizeTextType="uniform"
+                />
+
+            <TextView
+                android:id="@+id/tv_dueText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total amount due"
+                android:textSize="15sp"
+                app:layout_constraintStart_toStartOf="@id/tv_total_amount"
+                app:layout_constraintEnd_toEndOf="@id/tv_total_amount"
+                app:layout_constraintTop_toBottomOf="@+id/tv_total_amount"
+                android:layout_marginTop="5dp"/>
+
+            <!--    <TextView-->
+            <!--        android:id="@+id/tv_cashReceivedText"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginLeft="5dp"-->
+            <!--        android:text="Cash received"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toBottomOf="@+id/tv_dueText"-->
+            <!--        android:paddingTop="25dp"-->
+            <!--        android:layout_marginBottom="5dp"/>-->
+
+            <!--    <ImageView-->
+            <!--        android:id="@+id/img_dollar_sing"-->
+            <!--        android:layout_width="wrap_content"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginLeft="5dp"-->
+            <!--        android:src="@drawable/ic_baseline_attach_money_24"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/et_totalAmount"-->
+            <!--        app:layout_constraintStart_toStartOf="parent"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/et_totalAmount" />-->
+
+            <!--    <EditText-->
+            <!--        android:id="@+id/et_totalAmount"-->
+            <!--        android:layout_width="0dp"-->
+            <!--        android:layout_height="wrap_content"-->
+            <!--        android:layout_marginLeft="5dp"-->
+            <!--        android:layout_marginRight="5dp"-->
+            <!--        android:inputType="number"-->
+            <!--        android:textColor="@color/black"-->
+            <!--        app:layout_constraintBottom_toBottomOf="@+id/btn_charge_makePayment"-->
+            <!--        app:layout_constraintEnd_toStartOf="@id/btn_charge_makePayment"-->
+            <!--        app:layout_constraintStart_toEndOf="@id/img_dollar_sing"-->
+            <!--        app:layout_constraintTop_toTopOf="@+id/btn_charge_makePayment" />-->
+
+            <LinearLayout
+                android:id="@+id/ll_btn_cashPayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/round_corner"
+                android:gravity="center"
+                android:minWidth="130dp"
+                android:minHeight="55dp"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:layout_marginTop="40dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_dueText">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_baseline_money_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/cash" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_totalAmount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="55dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/ll_btn_cashPayment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/ll_btn_cashPayment"
+                />
+
+            <LinearLayout
+                android:id="@+id/ll_btn_cardPayment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="130dp"
+                android:minHeight="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_corner"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ll_btn_cashPayment"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_credit_card_32" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:text="@string/card"
+                    />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_cardPayment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="55dp"
+                android:textColor="@color/black"
+                android:inputType="number"
+                app:layout_constraintStart_toEndOf="@+id/ll_btn_cardPayment"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/ll_btn_cardPayment"
+                />
+
+
+
+            <LinearLayout
+                android:id="@+id/ll_mobileBanking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="130dp"
+                android:minHeight="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round_corner"
+                android:orientation="horizontal"
+                android:padding="5dp"
+                android:gravity="center"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ll_btn_cardPayment">
+
+                <com.jaredrummler.materialspinner.MaterialSpinner
+                    android:id="@+id/spinner_mobileBanking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/spinner_block"
+                    app:ms_background_color="@color/white_4"
+                    app:ms_arrow_tint="@color/black"
+                    android:text="@string/select"
+                    app:ms_text_color="@color/black"
+                    android:prompt="@string/market_id"
+                    android:spinnerMode="dropdown"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/et_mobileBankingPayment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:minHeight="55dp"
+                android:inputType="number"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toEndOf="@+id/ll_mobileBanking"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toBottomOf="@+id/ll_mobileBanking"
+                />
+
+
+            <Button
+                android:id="@+id/btn_charge_makePayment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Charge"
+                android:textAllCaps="true"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/custom_button_merchant"
+                app:layout_constraintTop_toBottomOf="@id/ll_mobileBanking"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                />
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <View
+        android:id="@+id/footer_View"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

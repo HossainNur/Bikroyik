@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/see_details_orders">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/accent"
+        android:padding="5dp"
+        app:cardBackgroundColor="@color/card_normal"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="14"
+
+            >
+
+            <LinearLayout
+                android:id="@+id/image_details"
+                android:layout_width="0dp"
+                android:layout_weight="2.5"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:src="@drawable/logo"/>
+
+            </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="11.5"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+                    <LinearLayout
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="14sp"
+                            android:layout_gravity="center_horizontal"
+                            android:id="@+id/order_details_orderId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" or-123456789123456789"/>
+
+
+
+
+
+
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="14sp"
+                            android:id="@+id/order_details_retail"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mukim Traders"/>
+
+                        <TextView
+                            android:id="@+id/order_details_retail_owner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="2dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_marginBottom="2dp"
+                            android:gravity="end"
+                            android:text="Mr. Mukim"
+                            android:textSize="14sp" />
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="14sp"
+                            android:id="@+id/order_details_total"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_height="wrap_content"
+                            android:text="Total : 5000"/>
+
+                        <TextView
+                            android:layout_marginTop="2dp"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="14sp"
+                            android:id="@+id/order_details_due"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:layout_marginEnd="15dp"
+                            android:gravity="end"
+                            android:layout_height="wrap_content"
+                            android:text="Due : 1000"/>
+
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="5dp"
+                        android:id="@+id/order_details_delivery"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:gravity="end"
+                        android:textSize="12sp"
+                        android:textColor="@color/colorPrimary"
+                        android:text="Delivery Date : 2021-07-02"/>
+
+
+
+                </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

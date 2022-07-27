@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimary">#1c8e5d</color>
+    <color name="colorPrimaryDark">#104f34</color>
+    <color name="colorAccent">#303F9F</color>
+
+    <color name="solid_black">#ff000000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="red_primary">#E43F3F</color>
+    <color name="red_primary_dark">#E12929</color>
+    <color name="red_primary_darker">#CC1D1D</color>
+    <color name="accent">#FFFFFF</color>
+
+    <color name="fb_gray">#dfdcdc</color>
+    <color name="black">#B9101010</color>
+    <color name="black_50">#B9101010</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#CCCCCC</color>
+    <color name="white_4">#DDDDDD</color>
+    <color name="white_5">#EEEEEE</color>
+    <color name="white_6">#FBF8F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="card_normal">#e6ffffff</color>
+    <color name="transp">#80000000</color>
+
+    <color name="green_list_grid_cal">#34DD12</color>
+
+
+
+    <color name="dodger_blue">#1E90FF</color>
+    <color name="sky_blue">#87CEEB</color>
+
+    <color name="deep_blue">#C6DFEE</color>
+    <color name="dark_blue">#005bac</color>
+    <color name="deep_pink">#F7347A</color>
+    <color name="blue_violet">#8A2BE2</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="violet">#800080</color>
+    <color name="light_violet">#AC25E2</color>
+    <color name="light_coral">#F08080</color>
+    <color name="light_blue">#468499</color>
+    <color name="dark_pink">#d411ae</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="light_see_green">#20B2AA</color>
+    <color name="light_primary">#68B1A9</color>
+    <color name="green">#17e14e</color>
+    <color name="successful">#1ad29f</color>
+
+</resources>

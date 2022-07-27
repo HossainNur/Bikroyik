@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvDialogFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Notice_one.jpg"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tvDialogFileName"
+        android:background="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/tvDialogFileDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewLine"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/solid_black"
+        android:text="Date: 2020-08-07" />
+
+    <TextView
+        android:id="@+id/tvDialogFileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewLine"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/solid_black"
+        android:layout_marginRight="10dp"
+        android:text="Size: 20 mb" />
+    <TextView
+        android:id="@+id/tvDialogFileDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDialogFileDate"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="10dp"
+        android:text="This file is for the purpose of eid notice" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/tvDialogFileDetails"
+       android:orientation="horizontal"
+       android:weightSum="2">
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:textColor="@color/white"
+           android:padding="8dp"
+           android:gravity="center"
+           android:textSize="20sp"
+           android:layout_marginRight="2px"
+           android:background="@color/colorPrimaryDark"
+           android:clickable="true"
+           android:focusable="true"
+           android:id="@+id/tvFileOpenOrDownload"
+           android:text="DOWNLOAD"/>
+       <TextView
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:text="CANCEL"
+           android:padding="8dp"
+           android:gravity="center"
+           android:textSize="20sp"
+           android:background="@color/colorPrimaryDark"
+           android:clickable="true"
+           android:focusable="true"
+           android:id="@+id/tvDialogFileCancel"
+           android:textColor="@color/white"/>
+
+   </LinearLayout>
+</RelativeLayout>

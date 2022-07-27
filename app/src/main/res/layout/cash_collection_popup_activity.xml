@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_popup_layout"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="12"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1px"
+                        android:padding="5dp"
+                        app:cardBackgroundColor="@color/card_normal"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/tv_orderId_cashCollection"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Order Id : 0000000"
+                                android:textStyle="bold"
+                                android:textSize="18sp"
+                                android:padding="5dp"
+                                android:textColor="@color/white"
+                                android:background="@color/colorPrimary"
+                                android:textAlignment="center"
+                                />
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="vertical"
+                                android:gravity="center"
+                                android:paddingBottom="5dp">
+                                <TextView
+                                    android:id="@+id/tvOrderConfirmRetailerName_cashCollection"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="2dp"
+                                    android:text="Abul kasem Enterprise"
+                                    android:textSize="14sp" />
+
+
+                                <TextView
+                                    android:id="@+id/tvOrderConfirmOrderDate_cashCollection"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="2dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:text="Order date: 10-08-2021"
+                                    android:textSize="12sp" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal"
+                                    android:weightSum="10">
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="5"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+
+                                        <TextView
+                                            android:id="@+id/tvTotalAmount_cashCollection"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="2dp"
+                                            android:text="Total: 00000 tk"
+                                            android:textAlignment="center"
+                                            android:textSize="12sp" />
+                                        <TextView
+                                            android:id="@+id/tvGrandTotal_cashCollection"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="10dp"
+                                            android:layout_marginTop="2dp"
+                                            android:text="Grand Total: 00000 tk"
+                                            android:textAlignment="center"
+                                            android:textSize="12sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="0dp"
+                                        android:layout_weight="5"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/tvDiscount_cashCollection"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="right"
+                                            android:text="Discount: 255000 tk"
+                                            android:textAlignment="center"
+                                            android:textSize="13sp"
+                                            tools:ignore="RtlCompat" />
+
+                                        <TextView
+                                            android:id="@+id/tvTotalCollection_cashCollection"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center_vertical"
+                                            android:gravity="right"
+                                            android:text="Collections: 255000 tk"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/green"
+                                            android:textSize="13sp"
+                                            tools:ignore="RtlCompat" />
+
+                                    </LinearLayout>
+
+                                </LinearLayout>
+
+
+                                <TextView
+                                    android:id="@+id/tvTotalDue_cashCollection"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:text="Due: 0000 tk"
+                                    android:textColor="@color/colorPrimary"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"/>
+
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1px"
+                        android:padding="5dp"
+                        app:cardBackgroundColor="@color/card_normal"
+                        app:cardElevation="5dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:background="@color/colorPrimary"
+                                android:gravity="center"
+                                android:padding="5dp"
+                                android:text="Cash Collection"
+                                android:textColor="@color/white"
+                                android:textSize="18sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right|center_vertical"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="3"
+                                    android:gravity="right|center_vertical"
+                                    android:text="Total order:" />
+
+                                <EditText
+                                    android:id="@+id/etOrderConfirmTotalPrice_cashCollection"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="7"
+                                    android:enabled="false"
+                                    android:gravity="left|center_vertical"
+                                    android:text="78653489"
+                                    android:textColor="@color/black_50" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right|center_vertical"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="3"
+                                    android:gravity="right|center_vertical"
+                                    android:text="Received:" />
+
+                                <EditText
+                                    android:id="@+id/etOrderConfirmCollection_cashCollection"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="7"
+                                    android:enabled="true"
+                                    android:inputType="number"
+                                    android:gravity="left|center_vertical"
+                                    android:text="0.0"
+                                    android:textColor="@color/black_50" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:minHeight="70dp"
+                                android:weightSum="10">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="right|center_vertical"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="3"
+                                    android:gravity="right|center_vertical"
+                                    android:text="Due amount:" />
+
+                                <EditText
+                                    android:id="@+id/etOrderConfirmDueAmount_cashCollection"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left|center_vertical"
+                                    android:layout_weight="7"
+                                    android:enabled="false"
+                                    android:gravity="left|center_vertical"
+                                    android:text="0.0"
+                                    android:textColor="@color/black_50" />
+                            </LinearLayout>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+                <Button
+                    android:id="@+id/btn_cancel_cashCollection"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginRight="2dp"
+                    android:background="@drawable/custon_button"
+                    android:textColor="@color/white"
+                    android:text="CANCEL"
+                    android:gravity="center"
+                    />
+                <Button
+                    android:id="@+id/btn_submit_cashCollection"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/custon_button"
+                    android:textColor="@color/white"
+                    android:text="SUBMIT"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp"
+    android:background="@color/colorPrimary">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1px"
+        android:background="@color/card_normal">
+        <CheckBox
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/cbTask"
+            android:src="@drawable/list_bullet_60"
+            android:padding="5dp"/>
+        <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:id="@+id/ivDetails"-->
+        <!--android:padding="5dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:src="@drawable/next_notice_32"/>-->
+        <TextView
+            android:layout_width="1px"
+            android:layout_height="60dp"
+            android:background="@color/colorPrimary"
+            android:id="@+id/tvVLine"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/cbTask"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tvVLine"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:layout_centerVertical="true">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/tvNotificationType"
+                    android:text="General Notice"
+                    android:textSize="11sp"
+                    android:textColor="@color/aluminum"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/tvNotificationDate"
+                    android:textSize="11sp"
+                    android:textColor="@color/aluminum"
+                    android:text="02-08-2018 12:30 PM"/>
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="2"
+                android:id="@+id/tvNotificationDescription"
+                android:layout_marginTop="2dp"
+                android:textSize="13sp"
+                android:text="Sun Pharma and Ranbaxy Medical Representative will not promote ...."/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

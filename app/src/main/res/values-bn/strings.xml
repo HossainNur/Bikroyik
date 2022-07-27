@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">বিক্রয়িক</string>
+    <string name="sync">সিঙ্ক করুন</string>
+
+
+<!--    merchant-->
+    <!--<string name="title_print" tools:ignore="ExtraTranslation">প্রিন্ট করুন </string>-->
+    <string name="setting_menu_tittle">হোমপেজ মেনু</string>
+    <string name="setting_menu_description">ফিচার যোগ করুন(সর্বোচ্চ ৬ টি)</string>
+
+    <string name="dena_pawna_entry" translatable="true">দেনা পাওনার এনট্রি</string>
+    <string name="add_new_customer" translatable="true">যোগ করুন</string>
+    <string name="sokol_contact" translatable="true">সকল কন্টাক্ট</string>
+    <string name="supplier" translatable="true">সাপ্লায়ার</string>
+    <string name="customer" translatable="true">কাস্টমার</string>
+    <string name="contact_list" translatable="true">কন্টাক্ট লিস্ট</string>
+    <string name="bakir_khata" translatable="true">বাকির খাতা</string>
+    <string name="new_contact" translatable="true">নতুন কন্টাক্ট</string>
+    <string name="mobile_number" translatable="true">মোবাইল নাম্বার*</string>
+    <string name="name" translatable="true">নাম*</string>
+    <string name="contact_type" translatable="true">কন্টাক্টের ধরণ নির্বাচন করুন</string>
+    <string name="more_information" translatable="true">আরও তথ্য</string>
+    <string name="email">ইমেইল</string>
+    <string name="address" translatable="true">ঠিকানা</string>
+    <string name="note" translatable="true">নোট</string>
+    <string name="compulsory_mobile_number" translatable="true">ফোন নম্বর দেয়া বাধ্যতামূলক</string>
+    <string name="compulsory_name" translatable="true">নাম দেয়া বাধ্যতামূলক</string>
+    <string name="phone_book" translatable="true">ফোন বুক</string>
+    <string name="no_contact" translatable="true">কোনো কন্টাক্ট নেই</string>
+    <string name="no_contact_on_phone_book" translatable="true">ফোন বুকে কোনো কন্টাক্ট যোগ করা নেই</string>
+    <string name="cash" translatable="true">নগদ</string>
+    <string name="card" translatable="true">কার্ড</string>
+    <string name="select" translatable="true">নির্বাচন করুন</string>
+    <string name="due" translatable="true">বাকি</string>
+    <string name="saved_order_history" translatable="true">সংরক্ষিত অর্ডার সমূহ</string>
+    <string name="order_details" translatable="true">অর্ডার বিবরণীs</string>
+    <string name="email_or_phone" translatable="true">ইমেইল/ফোন</string>
+    <string name="select_store" translatable="true">স্টোর নির্বাচন করুন</string>
+    <string name="enter_pin_number" translatable="true">পিন নম্বর দিন</string>
+    <string name="password" translatable="true">পাসওয়ার্ড</string>
+    <string name="add_client" translatable="true">ক্লায়েন্ট নির্বাচন করুন</string>
+    <string name="do_you_want_add_due" translatable="true">আপনি কি বাকি যোগ করতে চান?</string>
+    <string name="do_you_want_print" translatable="true">প্রিন্ট করতে চান?</string>
+    <string name="yes" translatable="true">হ্যা</string>
+    <string name="no" translatable="true">না</string>
+    <string name="store_contact" translatable="true">Contact: </string>
+    <string name="user_contact" translatable="true">User Contact: </string>
+    <string name="user_name" translatable="true">User Name: </string>
+    <string name="store_name_bikroyik" translatable="true">Store Name: </string>
+
+
+<!--    paiker-->
+
+    <string name="nav_item_home">হোম</string>
+    <string name="title_home_fragment">ড্যাশবোর্ড</string>
+    <string name="title_settings">সেটিংস</string>
+    <string name="title_sync_data">ডাটা সিঙ্ক করুন</string>
+    <string name="title_product_directory">পণ্য বিবরণী</string>
+    <string name="title_contacts">যোগাযোগ</string>
+    <string name="title_reports">প্রতিবেদন</string>
+    <string name="title_call_scheduler">কল শিডিউল</string>
+    <string name="title_task_list"> কাজের তালিকা</string>
+    <string name="title_messaging">মেসেজ</string>
+    <string name="title_notifications">প্রিন্ট করুন </string>
+    <string name="title_print">প্রিন্ট করুন </string>
+    <string name="title_attendence">উপস্থিতি</string>
+    <string name="title_profile">প্রোফাইল</string>
+    <string name="expenses">ব্যয়</string>
+
+<!--    <string name="change_language">ভাষা পরিবর্তন করুন</string>-->
+    <string name="change_language">বাংলা</string>
+    <string name="language">en</string>
+
+    <string name="products">প্রোডাক্ট</string>
+    <string name="printer">প্রিন্ট করুন</string>
+    <string name="contacts">যোগাযোগ</string>
+    <string name="call_scheduler">কল শিডিউল</string>
+    <string name="messaging">বার্তা প্রেরণ</string>
+    <string name="notifications">বার্তা</string>
+
+    <string name="task_list">কাজের তালিকা</string>
+    <string name="attendence">উপস্থিতি</string>
+    <string name="profile_info">প্রোফাইল</string>
+    <string name="dashboard">ড্যাশবোর্ড</string>
+
+    <string name="notice_sample"> <p style="color: #000"><div>As a testimony of its performance, and significant contributions to the National Economy, the Group received following Awards / Achievements:</div><div>•<span class="Apple-tab-span" style="white-space:pre">	</span>Members of the Boards of Directors received CIP (Commercially Important Person) Card for consecutive fiscal years.</div><div>•<span class="Apple-tab-span" style="white-space:pre">	</span>Received the National Award for Exports in the fiscal year 2008-2009.</div><div>•<span class="Apple-tab-span" style="white-space:pre">	</span>Received the National Award for Export in the fiscal year 2010-2011.</div> </p></string>
+
+    <!--     Home Fragment Card Name   -->
+
+    <string name="sales_order">সেলস অর্ডার</string>
+
+    <string name="route_visit">রুট পরিদর্শন</string>
+    <string name="sales_target">বিক্রয় লক্ষ্য</string>
+    <string name="add_retailer">নতুন দোকান নিবন্ধন</string>
+
+    <!--Add Retailer-->
+
+    <string name="capture_image"> ছবি তুলুন</string>
+    <string name="store_name"> দোকানের নাম</string>
+    <string name="retail_owner"> বিক্রেতা</string>
+    <string name="national_id"> জাতীয় পরিচয় পত্র</string>
+    <string name="phone_no"> মোবাইল</string>
+    <string name="retail_address">ঠিকানা</string>
+    <string name="location">লোকেশন</string>
+    <string name="submit">সাবমিট</string>
+    <string name="get_location">লোকেশন নিন</string>
+    <string name="market_id">মার্কেট আইডি</string>
+    <string name="distributor_id">ডিস্ট্রিবিউটর আইডি</string>
+    <string name="total_price">মোট মূল্যঃ </string>
+    <string name="payment_method">লেনদেন প্রক্রিয়াঃ </string>
+    <string name="advanced_payment">অগ্রিম প্রদাণঃ </string>
+    <string name="cash_on_delivery">ক্যাশ অন ডেলিভারি</string>
+    <string name="delete">ডিলিট</string>
+    <string name="select_all">Select All</string>
+    <string name="see_orders">অর্ডার দেখুন</string>
+    <string name="retail_phone">বিক্রেতার মোবাইল নাম্বারঃ</string>
+    <string name="route_name">রুটের নামঃ</string>
+    <string name="market_address">মার্কেটের ঠিকানা</string>
+<!--    <string name="btn_save_change_password">সাবমিট</string>-->
+    <string name="title_change_password">পাসওয়ার্ড পরিবর্তন</string>
+    <string name="language_find">ভাষা পরিবর্তন </string>
+    <string name="find_language">ভাষা পরিবর্তন </string>
+    <string name="language_select">ভাষা সিলেক্ট </string>
+    <string name="english">ইংরেজি </string>
+    <string name="bangla"> বাংলা </string>
+    <string name="description_popup"></string>
+
+
+</resources>
